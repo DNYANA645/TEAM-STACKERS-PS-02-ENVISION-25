@@ -91,7 +91,7 @@ To understand patterns and risk factors related to heart disease, **five meaning
 #### Visualizations Included:
 1. **[Heart Disease Risk Distribution](https://github.com/DNYANA645/TEAM-STACKERS-PS-02-ENVISION-25/blob/main/Heart%20Disease%20Presence%20by%20Unnecessary%20Feature.png)**
 2. **[Age vs Heart Disease Risk](https://github.com/DNYANA645/TEAM-STACKERS-PS-02-ENVISION-25/blob/main/ge%20vs.%20Maximum%20Heart%20Rate%20(thalach)%20by%20Heart%20Disease%20Presence.png)**
-3. **Cholesterol Level vs Risk**
+3. **[Chest pain vs Risk](https://github.com/DNYANA645/TEAM-STACKERS-PS-02-ENVISION-25/blob/main/heart%20disease%20frequency%20for%20chest%20pain%20types.png)**
 4. **[missing values](https://github.com/DNYANA645/TEAM-STACKERS-PS-02-ENVISION-25/blob/main/missing%20values.png)**
 5. **[Correlation Heatmap of Key Parameters](https://github.com/DNYANA645/TEAM-STACKERS-PS-02-ENVISION-25/blob/main/heatmap.png)**
 
