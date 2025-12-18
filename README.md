@@ -87,8 +87,9 @@ Additionally:
 
 ### Total Records
 - **900 synthetic patient records**
+--**16 COLUMNS**
 
-### Parameters Included
+### Parameters Included ( WE MAINLY FOCUSED ONLY ON THIS PARAMETERS)
 - `age` – Age of patient  
 - `sex` – Gender (0: Female, 1: Male)  
 - `trtbps` – Resting blood pressure (mmHg)  
@@ -160,6 +161,7 @@ https://www.cdc.gov/heartdisease/risk_factors.htm
 
 ## 👤 Team
 **Team Stackers**  
+Dnyanesh Shinde
 ENVISION-2K26 Datathon
 
 ---
