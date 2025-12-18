@@ -1,0 +1,901 @@
+age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,target,patient_id,unnecessary_feature
+63,male,asymptomatic,145,233,TRUE,normal,,no,2.3,upsloping,0,normal,,ID1,B
+37,male,non-anginal pain,,250,FALSE,ST-T wave abnormality,187,no,3.5,upsloping,0,,1,ID2,A
+41,female,atypical angina,130,204,FALSE,normal,172,no,1.4,downsloping,0,fixed defect,1,ID3,C
+56,male,atypical angina,120,236,FALSE,ST-T wave abnormality,178,no,0.8,downsloping,0,fixed defect,,ID4,B
+57,female,typical angina,120,354,FALSE,ST-T wave abnormality,,yes,0.6,downsloping,0,fixed defect,1,ID5,B
+57,male,,140,192,FALSE,ST-T wave abnormality,148,no,0.4,flat,,normal,1,ID6,B
+56,female,,140,294,FALSE,normal,153,no,1.3,,0,fixed defect,1,ID7,B
+44,male,atypical angina,120,263,FALSE,ST-T wave abnormality,173,no,0,downsloping,0,reversible defect,1,ID8,A
+52,male,non-anginal pain,172,199,,ST-T wave abnormality,162,no,0.5,downsloping,0,,1,ID9,A
+57,male,non-anginal pain,150,168,FALSE,ST-T wave abnormality,174,no,1.6,downsloping,0,fixed defect,1,ID10,A
+54,male,typical angina,140,239,FALSE,ST-T wave abnormality,160,no,1.2,downsloping,,fixed defect,1,ID11,C
+48,female,non-anginal pain,130,275,FALSE,ST-T wave abnormality,139,no,0.2,downsloping,0,fixed defect,1,ID12,A
+49,male,atypical angina,130,266,FALSE,ST-T wave abnormality,171,no,0.6,downsloping,0,fixed defect,1,ID13,B
+64,male,asymptomatic,,211,FALSE,normal,144,yes,1.8,flat,0,fixed defect,1,ID14,A
+,female,asymptomatic,150,283,TRUE,normal,162,,1,downsloping,0,fixed defect,1,ID15,C
+50,female,non-anginal pain,120,219,FALSE,ST-T wave abnormality,,no,1.6,flat,0,fixed defect,1,ID16,C
+58,female,non-anginal pain,120,340,FALSE,ST-T wave abnormality,172,no,0,downsloping,0,fixed defect,,ID17,C
+66,female,asymptomatic,150,226,FALSE,ST-T wave abnormality,114,no,2.6,upsloping,0,fixed defect,1,ID18,A
+43,male,typical angina,150,247,FALSE,ST-T wave abnormality,171,no,1.5,downsloping,0,fixed defect,1,ID19,C
+69,female,asymptomatic,140,239,FALSE,ST-T wave abnormality,151,no,1.8,downsloping,2,fixed defect,1,ID20,A
+,male,,135,234,FALSE,ST-T wave abnormality,,no,0.5,flat,0,reversible defect,1,ID21,A
+44,male,non-anginal pain,130,233,,ST-T wave abnormality,179,yes,,,0,fixed defect,1,ID22,B
+42,,typical angina,140,,FALSE,ST-T wave abnormality,178,no,0,downsloping,0,fixed defect,1,ID23,B
+61,male,non-anginal pain,150,243,TRUE,ST-T wave abnormality,137,yes,1,flat,0,fixed defect,1,ID24,A
+40,male,asymptomatic,,199,FALSE,ST-T wave abnormality,178,yes,1.4,,,reversible defect,1,ID25,B
+71,female,atypical angina,160,302,FALSE,ST-T wave abnormality,162,,0.4,downsloping,2,fixed defect,1,ID26,C
+59,male,non-anginal pain,150,212,TRUE,ST-T wave abnormality,157,no,1.6,downsloping,0,fixed defect,1,ID27,B
+51,,non-anginal pain,110,225,FALSE,ST-T wave abnormality,123,no,0.6,downsloping,0,,1,ID28,C
+65,female,non-anginal pain,140,417,TRUE,,157,,0.8,downsloping,1,fixed defect,1,ID29,C
+53,male,non-anginal pain,130,197,TRUE,normal,152,no,1.2,upsloping,0,fixed defect,1,ID30,A
+,female,atypical angina,105,,FALSE,ST-T wave abnormality,168,no,0,downsloping,1,fixed defect,1,ID31,C
+65,male,typical angina,,177,FALSE,ST-T wave abnormality,140,no,,downsloping,0,reversible defect,1,ID32,C
+44,male,atypical angina,130,219,FALSE,normal,188,no,0,downsloping,0,,1,ID33,B
+54,male,non-anginal pain,125,273,FALSE,normal,152,no,0.5,upsloping,1,fixed defect,1,ID34,A
+51,male,asymptomatic,125,213,FALSE,normal,,yes,1.4,downsloping,,fixed defect,1,ID35,A
+46,female,non-anginal pain,142,177,FALSE,normal,160,yes,1.4,upsloping,0,fixed defect,1,ID36,C
+54,female,,135,304,TRUE,ST-T wave abnormality,170,no,0,downsloping,0,fixed defect,,ID37,C
+54,male,non-anginal pain,150,232,FALSE,,165,no,1.6,downsloping,0,reversible defect,,ID38,A
+65,female,non-anginal pain,155,269,FALSE,ST-T wave abnormality,148,,0.8,downsloping,0,fixed defect,1,ID39,C
+65,female,non-anginal pain,160,360,FALSE,normal,151,,0.8,downsloping,0,,1,ID40,B
+51,female,non-anginal pain,140,308,FALSE,normal,142,,1.5,downsloping,1,fixed defect,1,ID41,A
+48,male,atypical angina,130,245,FALSE,normal,,no,0.2,flat,0,fixed defect,1,ID42,B
+,male,typical angina,104,208,FALSE,normal,148,yes,3,flat,0,fixed defect,1,ID43,A
+53,female,typical angina,130,264,FALSE,normal,143,no,0.4,,0,fixed defect,1,ID44,B
+39,male,non-anginal pain,140,321,FALSE,normal,182,no,0,downsloping,0,fixed defect,1,ID45,B
+52,male,atypical angina,120,325,FALSE,,172,no,0.2,,,fixed defect,1,ID46,C
+44,male,non-anginal pain,140,235,FALSE,normal,,no,,downsloping,0,,1,ID47,B
+47,male,non-anginal pain,138,,FALSE,normal,156,,0,,0,fixed defect,1,ID48,A
+53,female,non-anginal pain,128,,FALSE,normal,115,no,0,downsloping,0,,1,ID49,A
+53,female,typical angina,138,234,FALSE,normal,160,no,0,downsloping,0,fixed defect,1,ID50,B
+51,,non-anginal pain,130,256,FALSE,normal,,no,0.5,downsloping,0,fixed defect,1,ID51,A
+66,male,typical angina,120,352,FALSE,normal,151,no,0.4,flat,0,fixed defect,,ID52,B
+62,male,non-anginal pain,130,231,FALSE,ST-T wave abnormality,146,no,1.8,flat,3,reversible defect,1,ID53,B
+44,female,non-anginal pain,108,191,FALSE,ST-T wave abnormality,175,no,0.6,flat,,fixed defect,1,ID54,C
+63,,,202.5,302,FALSE,normal,172,no,0,downsloping,,fixed defect,1,ID55,C
+52,male,atypical angina,134,201,,ST-T wave abnormality,158,,0.8,downsloping,1,fixed defect,1,ID56,A
+48,,typical angina,122,222,FALSE,normal,186,no,0,downsloping,0,fixed defect,1,ID57,C
+45,male,typical angina,115,260,FALSE,normal,185,no,0,downsloping,0,fixed defect,,ID58,A
+34,male,asymptomatic,118,182,FALSE,normal,174,no,0,downsloping,0,fixed defect,1,ID59,A
+57,female,typical angina,128,303,FALSE,normal,159,no,0,downsloping,1,fixed defect,1,ID60,B
+71,female,non-anginal pain,,,TRUE,,130,no,0,downsloping,1,fixed defect,1,ID61,B
+54,male,atypical angina,108,309,FALSE,,156,no,0,downsloping,,reversible defect,1,ID62,C
+52,male,asymptomatic,118,186,FALSE,normal,190,no,0,flat,0,normal,1,ID63,C
+41,male,atypical angina,135,203,FALSE,ST-T wave abnormality,132,no,0,flat,0,normal,1,ID64,C
+58,male,,140,211,TRUE,normal,165,no,0,,0,fixed defect,1,ID65,A
+35,female,,138,233,FALSE,ST-T wave abnormality,182,no,1.4,downsloping,0,fixed defect,,ID66,A
+51,male,non-anginal pain,100,222,FALSE,,143,,1.2,flat,0,fixed defect,1,ID67,C
+45,female,atypical angina,130,234,FALSE,normal,175,no,,flat,0,fixed defect,1,ID68,A
+44,male,atypical angina,120,220,FALSE,ST-T wave abnormality,170,no,0,downsloping,0,fixed defect,1,ID69,A
+62,female,typical angina,124,209,FALSE,ST-T wave abnormality,163,no,0,downsloping,0,,1,ID70,B
+54,,non-anginal pain,120,258,FALSE,normal,147,no,0.4,flat,0,reversible defect,,ID71,B
+51,,non-anginal pain,94,227,FALSE,ST-T wave abnormality,154,yes,0,,1,reversible defect,1,ID72,A
+29,,atypical angina,,204,,normal,202,no,0,downsloping,0,fixed defect,1,ID73,B
+51,male,typical angina,140,261,FALSE,normal,186,yes,0,downsloping,0,fixed defect,1,ID74,C
+43,female,non-anginal pain,122,213,FALSE,ST-T wave abnormality,165,no,0.2,flat,0,fixed defect,1,ID75,B
+55,female,atypical angina,135,250,FALSE,normal,161,no,,flat,0,fixed defect,1,ID76,B
+51,male,non-anginal pain,125,245,TRUE,normal,166,no,2.4,flat,,fixed defect,1,ID77,A
+59,,,140,221,FALSE,ST-T wave abnormality,164,yes,0,,0,fixed defect,1,ID78,B
+52,male,atypical angina,128,205,TRUE,ST-T wave abnormality,184,no,0,,0,fixed defect,1,ID79,C
+58,male,non-anginal pain,105,240,FALSE,normal,154,,0.6,flat,0,reversible defect,1,ID80,C
+,,non-anginal pain,112,250,FALSE,ST-T wave abnormality,179,no,0,downsloping,0,fixed defect,1,ID81,A
+45,male,atypical angina,128,,FALSE,,170,no,0,,0,fixed defect,1,ID82,A
+60,female,non-anginal pain,102,,FALSE,ST-T wave abnormality,160,no,0,downsloping,1,fixed defect,1,ID83,C
+52,male,asymptomatic,152,298,TRUE,ST-T wave abnormality,178,no,1.2,flat,0,reversible defect,1,ID84,C
+42,female,typical angina,102,265,FALSE,normal,122,no,,flat,0,fixed defect,1,ID85,C
+67,female,,115,564,FALSE,normal,160,no,1.6,flat,0,reversible defect,1,ID86,A
+68,male,non-anginal pain,118,277,,ST-T wave abnormality,151,no,1,,1,reversible defect,1,ID87,C
+46,male,atypical angina,101,197,TRUE,ST-T wave abnormality,156,no,0,downsloping,0,reversible defect,,ID88,B
+54,female,non-anginal pain,,,FALSE,ST-T wave abnormality,158,no,1.6,flat,0,fixed defect,1,ID89,B
+58,female,typical angina,100,248,FALSE,normal,122,no,1,flat,0,fixed defect,1,ID90,B
+48,male,non-anginal pain,124,255,TRUE,ST-T wave abnormality,175,no,0,downsloping,2,fixed defect,1,ID91,B
+57,male,typical angina,132,207,FALSE,ST-T wave abnormality,168,yes,0,downsloping,,reversible defect,1,ID92,A
+52,male,non-anginal pain,138,223,FALSE,ST-T wave abnormality,169,no,,downsloping,4,fixed defect,1,ID93,C
+54,female,atypical angina,132,288,TRUE,normal,159,yes,0,downsloping,1,fixed defect,1,ID94,A
+45,female,atypical angina,112,160,,,138,no,0,flat,0,fixed defect,1,ID95,B
+53,male,typical angina,142,226,FALSE,normal,,yes,0,downsloping,0,reversible defect,1,ID96,C
+62,female,,140,394,FALSE,normal,157,,,flat,,fixed defect,1,ID97,B
+,male,typical angina,108,233,TRUE,ST-T wave abnormality,147,no,0.1,downsloping,3,reversible defect,1,ID98,B
+43,,,,315,FALSE,,162,no,1.9,downsloping,,fixed defect,1,ID99,C
+53,male,non-anginal pain,130,246,TRUE,normal,173,no,0,downsloping,3,fixed defect,1,ID100,B
+,male,asymptomatic,148,244,FALSE,,178,no,0.8,downsloping,2,fixed defect,1,ID101,B
+59,male,asymptomatic,178,270,FALSE,normal,145,no,4.2,upsloping,0,reversible defect,1,ID102,B
+63,female,atypical angina,,195,FALSE,ST-T wave abnormality,179,no,0,downsloping,2,fixed defect,1,ID103,B
+42,male,non-anginal pain,120,240,TRUE,ST-T wave abnormality,194,no,0.8,upsloping,0,reversible defect,1,ID104,C
+50,male,non-anginal pain,,196,FALSE,ST-T wave abnormality,163,no,0,downsloping,0,fixed defect,1,ID105,C
+68,female,non-anginal pain,120,211,FALSE,normal,115,no,1.5,flat,,fixed defect,1,ID106,B
+69,male,asymptomatic,160,234,TRUE,normal,131,no,0.1,flat,1,fixed defect,1,ID107,A
+45,female,typical angina,138,236,FALSE,normal,152,yes,0.2,,0,fixed defect,1,ID108,C
+50,female,atypical angina,120,244,,ST-T wave abnormality,162,no,1.1,,0,,1,ID109,B
+50,female,typical angina,110,254,FALSE,normal,159,,0,downsloping,0,fixed defect,1,ID110,C
+64,female,typical angina,180,325,FALSE,ST-T wave abnormality,154,yes,0,downsloping,0,fixed defect,1,ID111,A
+57,male,non-anginal pain,150,126,TRUE,ST-T wave abnormality,173,no,0.2,downsloping,1,reversible defect,1,ID112,A
+64,female,,140,313,FALSE,ST-T wave abnormality,,no,,downsloping,0,reversible defect,1,ID113,B
+43,,,110,211,FALSE,ST-T wave abnormality,161,no,,downsloping,0,,1,ID114,A
+55,male,atypical angina,130,312,FALSE,ST-T wave abnormality,,no,0,downsloping,0,fixed defect,1,ID115,A
+37,female,non-anginal pain,120,215,FALSE,ST-T wave abnormality,170,no,0,downsloping,0,fixed defect,1,ID116,C
+41,male,non-anginal pain,130,,FALSE,normal,168,no,2,flat,,fixed defect,1,ID117,B
+56,male,asymptomatic,120,,FALSE,normal,162,no,1.9,flat,,reversible defect,1,ID118,C
+,female,atypical angina,105,204,,ST-T wave abnormality,172,no,0,downsloping,0,fixed defect,1,ID119,A
+,female,typical angina,138,243,FALSE,normal,152,,0,flat,,fixed defect,1,ID120,A
+64,,typical angina,130,303,FALSE,ST-T wave abnormality,122,no,2,flat,2,fixed defect,1,ID121,C
+59,male,typical angina,207,271,FALSE,normal,182,no,0,downsloping,0,fixed defect,1,ID122,A
+41,,non-anginal pain,112,268,FALSE,normal,172,yes,0,,0,,1,ID123,B
+54,female,non-anginal pain,108,267,FALSE,normal,167,no,0,,0,fixed defect,1,ID124,B
+39,female,non-anginal pain,94,199,FALSE,ST-T wave abnormality,179,no,0,downsloping,0,fixed defect,1,ID125,C
+34,female,atypical angina,118,210,,ST-T wave abnormality,192,no,0.7,downsloping,0,fixed defect,,ID126,B
+47,male,typical angina,112,,FALSE,ST-T wave abnormality,143,no,0.1,downsloping,0,fixed defect,1,ID127,C
+67,female,,152,277,FALSE,ST-T wave abnormality,172,no,0,downsloping,1,fixed defect,1,ID128,A
+52,female,non-anginal pain,136,196,,normal,169,no,0.1,flat,0,,1,ID129,C
+74,female,atypical angina,,269,FALSE,normal,121,yes,0.2,downsloping,1,fixed defect,1,ID130,A
+54,female,,160,201,FALSE,ST-T wave abnormality,163,no,0,,1,fixed defect,1,ID131,C
+,female,,134,271,FALSE,ST-T wave abnormality,162,no,0,flat,0,fixed defect,1,ID132,A
+42,male,atypical angina,120,295,FALSE,,162,no,0,downsloping,,fixed defect,1,ID133,B
+41,male,atypical angina,110,235,,ST-T wave abnormality,153,no,0,downsloping,0,fixed defect,1,ID134,A
+,female,atypical angina,126,306,FALSE,ST-T wave abnormality,163,no,0,downsloping,0,fixed defect,1,ID135,C
+49,female,typical angina,130,269,FALSE,ST-T wave abnormality,,no,0,downsloping,0,fixed defect,1,ID136,A
+60,female,non-anginal pain,120,178,TRUE,ST-T wave abnormality,96,no,0,downsloping,0,fixed defect,1,ID137,C
+62,male,atypical angina,,,,,140,,0,downsloping,0,fixed defect,1,ID138,B
+57,male,typical angina,110,201,FALSE,ST-T wave abnormality,,yes,1.5,flat,0,normal,1,ID139,A
+64,male,typical angina,128,263,FALSE,ST-T wave abnormality,,yes,0.2,flat,1,reversible defect,1,ID140,A
+51,female,non-anginal pain,120,295,FALSE,normal,157,no,,downsloping,0,fixed defect,1,ID141,C
+43,male,,115,303,FALSE,ST-T wave abnormality,181,no,1.2,flat,0,fixed defect,1,ID142,B
+42,female,non-anginal pain,120,209,FALSE,ST-T wave abnormality,173,,0,flat,0,fixed defect,1,ID143,C
+67,female,typical angina,106,,FALSE,ST-T wave abnormality,142,no,0.3,downsloping,2,fixed defect,1,ID144,C
+76,female,non-anginal pain,140,197,FALSE,left ventricular hypertrophy,116,no,1.1,flat,0,fixed defect,1,ID145,C
+70,male,atypical angina,,245,,normal,143,no,0,downsloping,,fixed defect,,ID146,B
+,female,non-anginal pain,118,242,FALSE,ST-T wave abnormality,149,no,0.3,flat,,,1,ID147,C
+60,female,asymptomatic,150,240,FALSE,ST-T wave abnormality,171,no,0.9,,0,fixed defect,1,ID148,B
+44,male,non-anginal pain,120,226,FALSE,,,no,0,downsloping,0,,,ID149,C
+42,male,non-anginal pain,130,180,,,150,no,,downsloping,0,fixed defect,1,ID150,C
+66,,typical angina,,228,FALSE,,,,,downsloping,0,normal,1,ID151,C
+,female,typical angina,112,149,FALSE,ST-T wave abnormality,,,1.6,,0,fixed defect,,ID152,C
+64,male,asymptomatic,,227,FALSE,,155,no,0.6,flat,0,reversible defect,1,ID153,B
+66,female,non-anginal pain,146,278,FALSE,normal,152,no,0,flat,1,fixed defect,,ID154,C
+39,female,non-anginal pain,138,220,FALSE,ST-T wave abnormality,152,no,0,flat,0,fixed defect,1,ID155,C
+58,female,typical angina,130,197,FALSE,ST-T wave abnormality,131,no,0.6,flat,0,fixed defect,1,ID156,A
+47,male,non-anginal pain,130,253,FALSE,ST-T wave abnormality,179,no,,downsloping,0,fixed defect,1,ID157,B
+35,male,,,192,FALSE,ST-T wave abnormality,174,no,0,downsloping,0,fixed defect,1,ID158,B
+58,male,atypical angina,125,220,FALSE,ST-T wave abnormality,144,no,0.4,flat,4,reversible defect,1,ID159,B
+56,male,,130,221,FALSE,normal,163,no,0,downsloping,0,reversible defect,1,ID160,A
+56,male,atypical angina,,240,FALSE,ST-T wave abnormality,169,no,0,upsloping,0,fixed defect,1,ID161,A
+,female,atypical angina,,,FALSE,ST-T wave abnormality,166,no,1.2,downsloping,0,fixed defect,1,ID162,B
+41,male,atypical angina,120,157,FALSE,ST-T wave abnormality,182,no,0,downsloping,0,fixed defect,1,ID163,A
+38,male,non-anginal pain,138,225,FALSE,ST-T wave abnormality,173,no,0,downsloping,4,,1,ID164,A
+38,male,non-anginal pain,,175,FALSE,ST-T wave abnormality,173,no,0,downsloping,4,,1,ID165,A
+67,male,typical angina,160,286,FALSE,normal,108,,,,3,fixed defect,0,ID166,C
+67,,typical angina,120,229,,normal,129,yes,2.6,flat,2,reversible defect,0,ID167,B
+62,female,,140,268,FALSE,normal,160,no,3.6,upsloping,2,,0,ID168,B
+63,male,typical angina,130,254,FALSE,normal,147,no,1.4,flat,1,reversible defect,0,ID169,C
+53,male,typical angina,140,203,,normal,155,yes,3.1,upsloping,0,reversible defect,0,ID170,A
+,male,non-anginal pain,130,256,,normal,142,yes,0.6,flat,1,normal,0,ID171,A
+48,male,atypical angina,110,229,FALSE,ST-T wave abnormality,168,no,1,upsloping,,reversible defect,0,ID172,A
+58,male,atypical angina,120,284,FALSE,,160,no,,flat,0,fixed defect,0,ID173,C
+58,male,non-anginal pain,132,,,normal,173,no,3.2,downsloping,2,reversible defect,0,ID174,C
+60,male,typical angina,130,206,FALSE,normal,132,yes,2.4,flat,2,reversible defect,0,ID175,C
+40,male,typical angina,165,167,FALSE,normal,114,yes,2,flat,,reversible defect,0,ID176,C
+,male,typical angina,117,230,TRUE,ST-T wave abnormality,160,yes,1.4,downsloping,2,reversible defect,0,ID177,C
+64,male,non-anginal pain,140,335,FALSE,ST-T wave abnormality,158,no,0,downsloping,0,fixed defect,0,ID178,C
+43,male,typical angina,120,227,FALSE,normal,120,yes,2.5,flat,0,reversible defect,0,ID179,C
+57,male,typical angina,225,276,,normal,112,yes,0.6,flat,1,normal,0,ID180,A
+55,,typical angina,132,353,FALSE,ST-T wave abnormality,,yes,1.2,flat,1,,0,ID181,A
+65,female,typical angina,150,225,FALSE,normal,114,no,1,flat,,reversible defect,0,ID182,A
+,,,130,330,FALSE,normal,169,,0,downsloping,0,,0,ID183,B
+58,male,non-anginal pain,112,,FALSE,normal,165,no,2.5,flat,1,reversible defect,0,ID184,A
+50,male,typical angina,150,243,FALSE,normal,128,no,,flat,0,reversible defect,0,ID185,A
+,male,typical angina,,290,FALSE,normal,,,0,downsloping,1,fixed defect,0,ID186,B
+60,male,typical angina,130,,FALSE,ST-T wave abnormality,144,yes,1.4,downsloping,1,reversible defect,0,ID187,C
+54,male,typical angina,124,,FALSE,normal,,yes,2.2,flat,,reversible defect,0,ID188,B
+50,male,non-anginal pain,140,283,FALSE,ST-T wave abnormality,163,no,0.6,flat,1,reversible defect,0,ID189,A
+41,male,typical angina,110,172,FALSE,normal,158,no,0,downsloping,0,reversible defect,0,ID190,B
+51,female,typical angina,130,305,FALSE,ST-T wave abnormality,142,yes,1.2,flat,0,reversible defect,0,ID191,B
+58,male,typical angina,128,216,FALSE,normal,131,yes,2.2,flat,3,reversible defect,,ID192,A
+54,male,typical angina,180,238,FALSE,,113,no,1.4,flat,1,reversible defect,0,ID193,C
+,male,typical angina,145,332,,normal,142,yes,,flat,2,,0,ID194,A
+60,male,non-anginal pain,140,185,FALSE,normal,155,no,3,flat,0,,0,ID195,B
+59,male,typical angina,170,326,FALSE,normal,140,yes,3.4,upsloping,0,,0,ID196,A
+46,male,non-anginal pain,225,231,FALSE,ST-T wave abnormality,147,,,flat,0,fixed defect,,ID197,A
+,male,typical angina,187.5,,TRUE,ST-T wave abnormality,163,no,0.2,flat,2,reversible defect,0,ID198,A
+62,male,typical angina,120,267,FALSE,ST-T wave abnormality,99,yes,1.8,flat,2,reversible defect,0,ID199,C
+65,male,typical angina,110,248,FALSE,normal,158,no,,downsloping,2,,0,ID200,B
+,,typical angina,110,197,FALSE,normal,,no,0,downsloping,1,fixed defect,0,ID201,A
+60,,typical angina,125,258,FALSE,normal,141,yes,2.8,flat,1,reversible defect,0,ID202,A
+58,male,typical angina,150,,FALSE,normal,111,yes,,,0,,0,ID203,B
+68,male,non-anginal pain,180,274,,normal,150,yes,1.6,flat,,reversible defect,0,ID204,C
+62,female,,160,164,FALSE,normal,145,no,6.2,upsloping,3,reversible defect,0,ID205,C
+52,male,typical angina,128,255,FALSE,ST-T wave abnormality,161,yes,0,downsloping,1,reversible defect,,ID206,B
+59,male,typical angina,110,239,FALSE,,,yes,1.2,flat,,reversible defect,0,ID207,C
+60,female,typical angina,150,258,FALSE,normal,157,no,2.6,flat,2,reversible defect,0,ID208,C
+49,,non-anginal pain,120,188,FALSE,,,no,2,flat,3,reversible defect,0,ID209,C
+59,male,typical angina,140,177,FALSE,ST-T wave abnormality,162,yes,0,downsloping,1,reversible defect,0,ID210,B
+57,male,non-anginal pain,128,229,FALSE,normal,150,no,0.4,,1,,,ID211,B
+61,male,,120,260,FALSE,,140,yes,3.6,flat,1,,,ID212,B
+39,male,typical angina,118,219,FALSE,ST-T wave abnormality,140,,1.2,flat,0,reversible defect,0,ID213,C
+61,female,typical angina,,,FALSE,normal,146,yes,1,flat,0,,0,ID214,C
+56,male,typical angina,125,249,,normal,144,yes,1.2,flat,1,fixed defect,0,ID215,C
+43,female,typical angina,198,341,TRUE,normal,136,yes,3,flat,0,reversible defect,,ID216,B
+62,female,,195,263,FALSE,ST-T wave abnormality,97,no,1.2,flat,1,reversible defect,0,ID217,A
+63,male,typical angina,195,330,TRUE,normal,132,yes,1.8,downsloping,3,reversible defect,,ID218,B
+65,male,typical angina,135,254,FALSE,,127,no,,flat,1,reversible defect,0,ID219,C
+,male,typical angina,130,256,TRUE,normal,150,yes,0,downsloping,2,reversible defect,0,ID220,B
+63,female,typical angina,150,407,FALSE,normal,154,no,4,flat,3,reversible defect,0,ID221,C
+55,,typical angina,140,217,,ST-T wave abnormality,111,yes,5.6,upsloping,0,reversible defect,0,ID222,B
+65,male,,138,,TRUE,normal,174,no,1.4,flat,1,fixed defect,0,ID223,C
+56,,typical angina,200,288,TRUE,normal,133,yes,4,upsloping,2,reversible defect,0,ID224,A
+54,male,,110,239,,ST-T wave abnormality,126,yes,2.8,flat,1,,0,ID225,B
+70,male,typical angina,,174,FALSE,ST-T wave abnormality,125,yes,,upsloping,0,reversible defect,0,ID226,B
+62,,atypical angina,120,281,FALSE,normal,103,no,1.4,flat,1,reversible defect,0,ID227,C
+35,male,typical angina,120,198,FALSE,ST-T wave abnormality,130,yes,,,0,reversible defect,0,ID228,B
+,male,,170,288,FALSE,normal,159,no,0.2,flat,0,reversible defect,0,ID229,B
+64,male,non-anginal pain,125,359,,ST-T wave abnormality,131,yes,1.8,flat,0,reversible defect,0,ID230,C
+47,,non-anginal pain,108,243,,ST-T wave abnormality,152,no,0,downsloping,0,fixed defect,0,ID231,A
+57,male,typical angina,165,289,,normal,124,no,,flat,3,,0,ID232,A
+,male,typical angina,160,289,FALSE,normal,145,yes,0.8,flat,1,reversible defect,0,ID233,C
+64,male,typical angina,120,246,FALSE,normal,96,yes,,upsloping,1,fixed defect,0,ID234,C
+70,male,typical angina,195,322,FALSE,normal,109,no,2.4,flat,3,fixed defect,0,ID235,C
+51,male,typical angina,140,299,FALSE,,173,yes,1.6,downsloping,0,reversible defect,0,ID236,C
+58,male,typical angina,125,300,FALSE,normal,171,,0,downsloping,2,reversible defect,0,ID237,B
+60,male,typical angina,140,293,FALSE,normal,170,no,1.2,flat,2,reversible defect,0,ID238,B
+77,,typical angina,125,304,FALSE,normal,162,,0,downsloping,3,fixed defect,0,ID239,C
+35,male,typical angina,126,282,FALSE,normal,156,yes,0,downsloping,0,reversible defect,0,ID240,B
+70,male,non-anginal pain,,269,FALSE,ST-T wave abnormality,112,yes,2.9,flat,1,reversible defect,0,ID241,B
+59,female,typical angina,174,249,FALSE,,143,yes,0,flat,0,fixed defect,0,ID242,C
+64,male,typical angina,145,212,FALSE,normal,132,no,2,flat,2,normal,0,ID243,B
+57,male,typical angina,152,274,FALSE,ST-T wave abnormality,88,yes,1.2,flat,1,reversible defect,,ID244,C
+56,male,typical angina,132,184,FALSE,normal,105,yes,2.1,flat,1,normal,0,ID245,A
+48,male,typical angina,,274,FALSE,normal,166,no,0.5,flat,0,reversible defect,,ID246,C
+56,female,typical angina,134,409,FALSE,normal,,,1.9,flat,2,reversible defect,,ID247,C
+66,male,atypical angina,160,246,,ST-T wave abnormality,120,yes,,flat,3,normal,0,ID248,C
+54,male,atypical angina,192,,FALSE,normal,,no,0,downsloping,1,reversible defect,0,ID249,C
+69,male,non-anginal pain,140,254,FALSE,normal,,no,2,flat,3,reversible defect,0,ID250,A
+51,male,typical angina,140,348,FALSE,ST-T wave abnormality,122,yes,4.2,,3,reversible defect,0,ID251,B
+43,male,typical angina,,247,,normal,143,yes,0.1,flat,4,reversible defect,,ID252,A
+62,female,typical angina,138,294,TRUE,ST-T wave abnormality,106,no,1.9,flat,,fixed defect,0,ID253,C
+67,male,typical angina,100,299,FALSE,normal,125,yes,0.9,flat,2,fixed defect,0,ID254,A
+,male,asymptomatic,160,273,FALSE,normal,125,no,,downsloping,0,fixed defect,0,ID255,B
+45,male,typical angina,,309,FALSE,normal,147,yes,0,flat,,reversible defect,0,ID256,A
+58,male,typical angina,128,,FALSE,normal,130,yes,3,,2,reversible defect,0,ID257,A
+50,,typical angina,144,,FALSE,normal,126,yes,0.9,flat,0,reversible defect,0,ID258,B
+62,,typical angina,150,244,FALSE,ST-T wave abnormality,154,,1.4,flat,0,fixed defect,0,ID259,A
+38,,asymptomatic,120,231,FALSE,ST-T wave abnormality,182,yes,3.8,flat,0,reversible defect,,ID260,A
+66,female,typical angina,178,228,TRUE,ST-T wave abnormality,165,yes,,flat,2,reversible defect,0,ID261,C
+52,male,typical angina,112,230,FALSE,ST-T wave abnormality,160,no,0,downsloping,1,fixed defect,0,ID262,C
+,male,typical angina,123,282,FALSE,ST-T wave abnormality,95,yes,2,,2,reversible defect,0,ID263,B
+63,female,typical angina,108,269,FALSE,ST-T wave abnormality,169,yes,1.8,flat,2,fixed defect,0,ID264,C
+54,male,typical angina,110,,FALSE,normal,108,yes,0,flat,1,fixed defect,0,ID265,B
+66,male,typical angina,112,212,FALSE,,132,yes,,downsloping,,fixed defect,,ID266,B
+55,female,typical angina,180,327,FALSE,,117,yes,3.4,flat,0,fixed defect,0,ID267,A
+49,male,non-anginal pain,118,149,FALSE,normal,126,no,0.8,downsloping,3,fixed defect,0,ID268,A
+54,male,typical angina,122,286,FALSE,normal,116,yes,3.2,flat,,fixed defect,0,ID269,A
+56,male,,130,283,TRUE,normal,103,yes,1.6,,0,reversible defect,0,ID270,C
+46,male,typical angina,,,FALSE,normal,144,no,0.8,downsloping,0,reversible defect,0,ID271,C
+61,male,asymptomatic,134,234,FALSE,ST-T wave abnormality,145,no,2.6,flat,2,fixed defect,0,ID272,B
+67,male,typical angina,120,237,FALSE,ST-T wave abnormality,71,no,1,flat,0,fixed defect,0,ID273,C
+58,male,typical angina,100,234,FALSE,ST-T wave abnormality,156,,0.1,downsloping,1,reversible defect,0,ID274,B
+47,male,typical angina,110,275,,normal,,yes,1,,1,fixed defect,0,ID275,B
+52,male,typical angina,125,212,FALSE,,168,no,1,downsloping,2,reversible defect,0,ID276,B
+58,male,typical angina,146,218,FALSE,ST-T wave abnormality,105,no,2,flat,1,,0,ID277,A
+57,male,atypical angina,124,261,FALSE,ST-T wave abnormality,141,no,0.3,downsloping,0,reversible defect,0,ID278,C
+,female,atypical angina,,319,TRUE,normal,152,no,0,downsloping,2,fixed defect,0,ID279,C
+61,male,typical angina,138,166,FALSE,,125,yes,3.6,flat,1,fixed defect,,ID280,B
+42,male,typical angina,136,315,FALSE,ST-T wave abnormality,125,,1.8,flat,0,normal,0,ID281,A
+52,male,typical angina,,204,TRUE,ST-T wave abnormality,,yes,1,flat,0,,0,ID282,C
+59,male,non-anginal pain,126,218,TRUE,ST-T wave abnormality,134,no,2.2,flat,1,normal,0,ID283,C
+,,typical angina,152,223,FALSE,ST-T wave abnormality,181,no,0,downsloping,0,reversible defect,0,ID284,C
+61,male,typical angina,,207,FALSE,normal,138,,1.9,downsloping,1,reversible defect,0,ID285,C
+46,male,typical angina,140,311,FALSE,ST-T wave abnormality,120,yes,1.8,flat,2,reversible defect,0,ID286,A
+59,male,asymptomatic,134,204,FALSE,,,no,0.8,downsloping,2,fixed defect,0,ID287,B
+57,male,atypical angina,154,,FALSE,normal,164,no,0,downsloping,1,fixed defect,0,ID288,B
+57,male,typical angina,110,335,FALSE,ST-T wave abnormality,143,yes,3,flat,1,reversible defect,0,ID289,B
+55,female,typical angina,128,205,FALSE,left ventricular hypertrophy,130,,2,flat,1,reversible defect,0,ID290,B
+61,male,,148,203,FALSE,ST-T wave abnormality,161,no,0,downsloping,1,reversible defect,0,ID291,C
+58,male,typical angina,114,318,FALSE,left ventricular hypertrophy,140,no,4.4,upsloping,3,normal,0,ID292,B
+58,female,typical angina,170,225,TRUE,normal,146,yes,2.8,,2,normal,0,ID293,B
+,male,,152,212,FALSE,normal,150,no,0.8,flat,0,reversible defect,0,ID294,B
+44,male,typical angina,120,,FALSE,ST-T wave abnormality,,yes,2.8,upsloping,0,,0,ID295,B
+63,male,typical angina,140,187,FALSE,normal,144,yes,4,downsloping,2,reversible defect,0,ID296,A
+63,female,typical angina,124,,FALSE,ST-T wave abnormality,136,yes,0,flat,0,fixed defect,0,ID297,A
+59,male,typical angina,164,176,TRUE,normal,90,no,1,,2,normal,0,ID298,C
+,female,typical angina,140,241,FALSE,,123,yes,0.2,flat,0,reversible defect,0,ID299,C
+45,male,asymptomatic,110,264,FALSE,ST-T wave abnormality,132,no,1.2,flat,0,reversible defect,0,ID300,A
+68,male,typical angina,216,193,TRUE,ST-T wave abnormality,141,no,3.4,flat,2,reversible defect,0,ID301,A
+57,male,typical angina,130,131,FALSE,ST-T wave abnormality,115,yes,1.2,flat,,reversible defect,0,ID302,A
+57,female,atypical angina,130,236,FALSE,normal,174,no,0,flat,1,fixed defect,,ID303,B
+64.02939283,female,,111.1074903,545.6117767,FALSE,normal,160.5139116,no,1.607784599,flat,0,reversible defect,0.982590918,ID86,A
+45.61337534,male,typical angina,,,FALSE,normal,137.7182909,no,0.807978698,downsloping,0,reversible defect,0,ID271,C
+52.93258698,male,non-anginal pain,150.3825282,234.106311,FALSE,,169.1454689,no,1.650933613,downsloping,0,reversible defect,,ID38,A
+54.14742613,female,typical angina,123.942595,205.1513352,FALSE,left ventricular hypertrophy,136.1219962,,1.909263925,flat,0.989234866,reversible defect,0,ID290,B
+58.14498393,male,typical angina,116.9006263,320.4720974,FALSE,left ventricular hypertrophy,137.255485,no,4.403231473,upsloping,2.906854201,normal,0,ID292,B
+,male,typical angina,123.0444086,278.2469698,FALSE,ST-T wave abnormality,92.9234237,yes,2.095972689,,2.092864737,reversible defect,0,ID263,B
+41.89557507,female,non-anginal pain,109.1852514,196.436468,FALSE,ST-T wave abnormality,168.7407443,no,0.607665442,flat,,fixed defect,0.996506096,ID54,C
+57.50661381,female,non-anginal pain,105.2675244,,FALSE,ST-T wave abnormality,159.1021217,no,0,downsloping,1.04060744,fixed defect,0.982037822,ID83,C
+57.06666889,male,typical angina,203.5491632,276.1088716,FALSE,normal,180.1432132,no,0,downsloping,0,fixed defect,0.990697436,ID122,A
+55.44972553,male,non-anginal pain,150.700479,132.2063497,TRUE,ST-T wave abnormality,180.5557381,no,0.202367834,downsloping,0.995822077,reversible defect,0.973341975,ID112,A
+57.25169547,male,typical angina,113.0204376,210.2635352,FALSE,ST-T wave abnormality,,yes,1.531382236,flat,0,normal,0.986840573,ID139,A
+,male,typical angina,195.5841522,,TRUE,ST-T wave abnormality,167.216494,no,0.191474274,flat,1.958755272,reversible defect,0,ID198,A
+61.94107583,female,,202.8390403,269.8617432,FALSE,ST-T wave abnormality,99.60713391,no,1.168060378,flat,0.969263402,reversible defect,0,ID217,A
+47.74498964,male,non-anginal pain,218.7705696,227.0485261,FALSE,ST-T wave abnormality,142.1079455,,,flat,0,fixed defect,,ID197,A
+60.47743755,male,typical angina,132.9756415,,FALSE,normal,131.6016156,yes,3.069580745,,2.090186619,reversible defect,0,ID257,A
+34.08744834,male,typical angina,125.3847365,204.4368633,FALSE,ST-T wave abnormality,131.6034779,yes,,,0,reversible defect,0,ID228,B
+35.4080694,male,,,188.1730097,FALSE,ST-T wave abnormality,175.8838212,no,0,downsloping,0,fixed defect,1.002243536,ID158,B
+40.99646694,male,typical angina,,237.6548223,,normal,140.5878622,yes,0.095313398,flat,4.088389102,reversible defect,,ID252,A
+55.0163962,male,typical angina,130.8400119,136.4741783,FALSE,ST-T wave abnormality,113.0902877,yes,1.201468641,flat,,reversible defect,0,ID302,A
+57.66842387,male,non-anginal pain,130.738284,224.692429,TRUE,ST-T wave abnormality,132.6056811,no,2.299162517,flat,1.00179494,normal,0,ID283,C
+54.10693546,male,non-anginal pain,125.9287162,238.4184776,TRUE,normal,164.8141534,no,0,downsloping,2.970445237,fixed defect,0.967469247,ID100,B
+67.13988306,female,non-anginal pain,125.940292,201.3410602,FALSE,normal,120.0257193,no,1.503553576,flat,,fixed defect,0.963110539,ID106,B
+,male,typical angina,142.5803864,345.3432447,,normal,138.310169,yes,,flat,2.09011667,,0,ID194,A
+60.15053293,female,typical angina,172.3732557,214.6830864,TRUE,normal,143.3435436,yes,2.909561005,,2.088540312,normal,0,ID293,B
+49.43129437,male,atypical angina,119.2522175,311.5513648,FALSE,,176.4493266,no,0.191961063,,,fixed defect,1.023548564,ID46,C
+65.30386327,male,typical angina,123.0178773,256.5194711,FALSE,ST-T wave abnormality,,yes,0.195474069,flat,0.989544,reversible defect,0.984784259,ID140,A
+44.05718796,female,non-anginal pain,114.379059,208.0546276,FALSE,ST-T wave abnormality,165.7340931,,0,flat,0,fixed defect,0.987250528,ID143,C
+,male,,139.6390465,240.6120145,FALSE,ST-T wave abnormality,,no,0.522584242,flat,0,reversible defect,1.040321382,ID21,A
+,male,asymptomatic,163.8571895,259.6990751,FALSE,normal,125.085181,no,,downsloping,0,fixed defect,0,ID255,B
+37.0241752,male,non-anginal pain,,177.8873225,FALSE,ST-T wave abnormality,173.5874343,no,0,downsloping,3.81671034,,1.046822032,ID165,A
+59.21786264,female,typical angina,152.9342049,254.2921147,FALSE,normal,163.3059453,no,2.510387426,flat,1.92254198,reversible defect,0,ID208,C
+53.46690203,,non-anginal pain,122.9826045,252.9871761,FALSE,normal,145.5541497,no,0.398690948,flat,0,reversible defect,,ID71,B
+48.57072441,male,atypical angina,124.2877462,255.2517696,FALSE,ST-T wave abnormality,169.4079899,no,0.591359726,downsloping,0,fixed defect,1.023497541,ID13,B
+56.63047923,male,atypical angina,161.4392134,,FALSE,normal,162.564373,no,0,downsloping,1.017126523,fixed defect,0,ID288,B
+64.28453517,female,typical angina,151.5548006,420.7279998,FALSE,normal,146.3328029,no,4.118313092,flat,3.058540888,reversible defect,0,ID221,C
+62.73590928,female,typical angina,142.9420891,300.9814611,TRUE,ST-T wave abnormality,104.9056442,no,1.813464174,flat,,fixed defect,0,ID253,C
+44.04265247,female,typical angina,199.7247098,337.7776896,TRUE,normal,134.7985091,yes,3.129470589,flat,0,reversible defect,,ID216,B
+50.01001841,male,typical angina,110.4869325,236.6155478,FALSE,ST-T wave abnormality,166.3164141,no,0,downsloping,0.953291428,fixed defect,0,ID262,C
+52.74980495,female,non-anginal pain,111.2264542,263.8680431,FALSE,normal,171.8599622,no,0,,0,fixed defect,1.005320813,ID124,B
+59.89236145,female,non-anginal pain,121.6888527,351.6130886,FALSE,ST-T wave abnormality,166.4582025,no,0,downsloping,0,fixed defect,,ID17,C
+53.09301393,male,non-anginal pain,172.2727468,196.3607324,,ST-T wave abnormality,165.835969,no,0.49141155,downsloping,0,,1.032926738,ID9,A
+40.57035449,male,typical angina,168.2578537,166.2358161,FALSE,normal,112.5355032,yes,1.974713638,flat,,reversible defect,0,ID176,C
+41.54731107,female,typical angina,200.3806648,331.7748737,TRUE,normal,130.7405759,yes,3.075782022,flat,0,reversible defect,,ID216,B
+58.7600876,male,atypical angina,,245.0392617,FALSE,ST-T wave abnormality,165.376296,no,0,upsloping,0,fixed defect,0.97980082,ID161,A
+,male,typical angina,130.6285066,252.0177752,TRUE,normal,150.829275,yes,0,downsloping,2.003196299,reversible defect,0,ID220,B
+73.45373338,male,typical angina,188.7542367,323.8187401,FALSE,normal,106.6132956,no,2.384540779,flat,3.108458171,fixed defect,0,ID235,C
+46.05329941,male,atypical angina,103.3762465,204.6741226,TRUE,ST-T wave abnormality,151.3044051,no,0,downsloping,0,reversible defect,,ID88,B
+57.7761261,male,typical angina,130.0887931,210.3271566,FALSE,normal,127.7007732,yes,2.450149658,flat,2.073456168,reversible defect,0,ID175,C
+41.19096737,male,atypical angina,121.7429573,163.5714719,FALSE,ST-T wave abnormality,185.1783146,no,0,downsloping,0,fixed defect,0.994314723,ID163,A
+49.83162624,,non-anginal pain,96.57153709,229.1158405,FALSE,ST-T wave abnormality,146.88323,yes,0,,0.953722552,reversible defect,0.952832415,ID72,A
+48.3654887,male,atypical angina,124.1405524,254.3024698,FALSE,ST-T wave abnormality,168.4052326,no,0.621483915,downsloping,0,fixed defect,0.991173507,ID13,B
+39.7521192,male,asymptomatic,,198.1802817,FALSE,ST-T wave abnormality,169.6222099,yes,1.397686351,,,reversible defect,0.995052082,ID25,B
+58.16130392,female,non-anginal pain,122.8066974,345.1218422,FALSE,ST-T wave abnormality,171.0767614,no,0,downsloping,0,fixed defect,,ID17,C
+39.174447,male,atypical angina,112.3960877,243.8114964,,ST-T wave abnormality,158.4377413,no,0,downsloping,0,fixed defect,0.998364052,ID134,A
+44.6658628,male,non-anginal pain,123.3299082,215.6203396,FALSE,,,no,0,downsloping,0,,,ID149,C
+54.25781896,male,typical angina,122.0744638,,FALSE,normal,,yes,2.278968642,flat,,reversible defect,0,ID188,B
+53.23376127,male,asymptomatic,114.9626421,,FALSE,normal,168.2257083,no,1.963133157,flat,,reversible defect,1.031531451,ID118,C
+50.72594229,male,asymptomatic,154.3219282,293.6839794,TRUE,ST-T wave abnormality,180.1755796,no,1.24252992,flat,0,reversible defect,0.950680001,ID84,C
+64.5919869,male,non-anginal pain,134.5411971,326.9486439,FALSE,ST-T wave abnormality,151.6441733,no,0,downsloping,0,fixed defect,0,ID178,C
+52.51535475,female,typical angina,130.5424208,214.0166562,FALSE,left ventricular hypertrophy,135.9425619,,2.010127303,flat,1.042331555,reversible defect,0,ID290,B
+79.65747887,,typical angina,127.251396,295.0681835,FALSE,normal,164.6999185,,0,downsloping,2.860753745,fixed defect,0,ID239,C
+40.41653515,male,atypical angina,122.8726421,288.1229972,FALSE,,168.8324069,no,0,downsloping,,fixed defect,0.984912583,ID133,B
+65.97402954,male,non-anginal pain,123.3998319,277.9678341,,ST-T wave abnormality,153.5313668,no,0.966201837,,1.005162974,reversible defect,1.029871937,ID87,C
+51.09496432,male,typical angina,,211.2458552,TRUE,ST-T wave abnormality,,yes,1.044559097,flat,0,,0,ID282,C
+53.46344114,male,atypical angina,,241.6109472,FALSE,ST-T wave abnormality,175.6944283,no,0,upsloping,0,fixed defect,0.996720241,ID161,A
+55.26322526,male,non-anginal pain,128.281885,252.2850167,TRUE,normal,180.0825578,no,0,downsloping,3.106781343,fixed defect,0.963040477,ID100,B
+51.23877404,male,non-anginal pain,144.8451448,223.2046491,FALSE,ST-T wave abnormality,174.4177196,no,,downsloping,3.869835084,fixed defect,1.033812373,ID93,C
+33.19293442,male,asymptomatic,119.631352,191.0154783,FALSE,normal,178.9594019,no,0,downsloping,0,fixed defect,1.043159037,ID59,A
+,female,atypical angina,124.5669571,298.6285248,FALSE,ST-T wave abnormality,162.572394,no,0,downsloping,0,fixed defect,0.99194661,ID135,C
+49.68976721,,non-anginal pain,107.158057,223.0892708,FALSE,ST-T wave abnormality,126.4526179,no,0.587738986,downsloping,0,,0.957052236,ID28,C
+41.64476532,female,typical angina,106.7773314,276.2412192,FALSE,normal,121.6475045,no,,flat,0,fixed defect,0.987455345,ID85,C
+59.24340883,male,asymptomatic,177.0117928,259.4936494,FALSE,normal,138.6172121,no,4.318275997,upsloping,0,reversible defect,1.038795054,ID102,B
+42.99708719,,non-anginal pain,109.889507,266.2377291,FALSE,normal,163.8024351,yes,0,,0,,1.028971188,ID123,B
+55.81670245,male,typical angina,122.6368575,276.4401522,FALSE,normal,118.0385629,yes,3.170594657,flat,,fixed defect,0,ID269,A
+,male,typical angina,156.1061089,285.9425929,FALSE,normal,148.6297932,yes,0.824425599,flat,1.000399424,reversible defect,0,ID233,C
+46.13710528,male,atypical angina,121.4250294,256.9544575,FALSE,ST-T wave abnormality,181.4403432,no,0,downsloping,0,reversible defect,1.016170671,ID8,A
+,female,non-anginal pain,120.6711205,234.4234918,FALSE,ST-T wave abnormality,148.2750926,no,0.304539626,flat,,,1.023760566,ID147,C
+52.73647569,,non-anginal pain,129.5036456,259.3532246,FALSE,normal,,no,0.489591859,downsloping,0,fixed defect,1.010034138,ID51,A
+64.94624586,,typical angina,117.3365313,232.1781246,,normal,134.628841,yes,2.57780823,flat,1.989983199,reversible defect,0,ID167,B
+,male,typical angina,121.090264,240.7904283,TRUE,ST-T wave abnormality,157.7454369,yes,1.388961736,downsloping,1.939854954,reversible defect,0,ID177,C
+56.93776652,male,typical angina,95.11243959,233.9566712,FALSE,ST-T wave abnormality,152.6244949,,0.099814527,downsloping,1.00404285,reversible defect,0,ID274,B
+,male,,152.6808275,209.6848753,FALSE,normal,154.4682877,no,0.820867728,flat,0,reversible defect,0,ID294,B
+68.1730426,male,non-anginal pain,172.3372949,280.2897498,,normal,153.3680503,yes,1.564145219,flat,,reversible defect,0,ID204,C
+51.2045961,male,typical angina,143.3939968,270.8621015,FALSE,normal,192.5228807,yes,0,downsloping,0,fixed defect,1.013854442,ID74,C
+33.18265356,male,asymptomatic,117.9709746,183.9330763,FALSE,normal,174.8351036,no,0,downsloping,0,fixed defect,1.02249042,ID59,A
+68.21072728,,typical angina,,222.5810151,FALSE,,,,,downsloping,0,normal,1.034891802,ID151,C
+59.70232365,female,atypical angina,129.3631949,230.7934531,FALSE,normal,175.414008,no,0,flat,0.951799373,fixed defect,,ID303,B
+60.39957553,male,non-anginal pain,136.5440799,,,normal,166.6382941,no,3.262217085,downsloping,1.980048193,reversible defect,0,ID174,C
+56.92642866,male,asymptomatic,178.4587993,265.7109549,FALSE,normal,140.3902076,no,4.390316616,upsloping,0,reversible defect,0.954648369,ID102,B
+,female,atypical angina,,,FALSE,ST-T wave abnormality,166.8557309,no,1.177354826,downsloping,0,fixed defect,1.029004264,ID162,B
+42.56365629,male,,113.1889098,292.7941923,FALSE,ST-T wave abnormality,183.3184512,no,1.204176658,flat,0,fixed defect,1.040167129,ID142,B
+50.8371191,male,typical angina,130.1777448,215.7557995,FALSE,,161.359615,no,1.049031059,downsloping,1.97708179,reversible defect,0,ID276,B
+,female,typical angina,116.8434366,146.0375701,FALSE,ST-T wave abnormality,,,1.557641396,,0,fixed defect,,ID152,C
+72.85713259,male,atypical angina,,256.8397853,,normal,139.2910359,no,0,downsloping,,fixed defect,,ID146,B
+36.17011587,,asymptomatic,116.0862497,235.3544611,FALSE,ST-T wave abnormality,176.433233,yes,3.693846208,flat,0,reversible defect,,ID260,A
+59.77467222,male,typical angina,137.4445869,206.5028265,FALSE,ST-T wave abnormality,162.6213125,yes,0,downsloping,,reversible defect,0.997029553,ID92,A
+49.22913353,male,non-anginal pain,130.1298178,249.5738719,TRUE,normal,171.7419878,no,2.317159843,flat,,fixed defect,0.96274896,ID77,A
+64.86381143,male,non-anginal pain,182.8004042,277.3414178,,normal,143.9441918,yes,1.542479638,flat,,reversible defect,0,ID204,C
+56.63329586,female,typical angina,123.66402,364.1322545,FALSE,ST-T wave abnormality,,yes,0.591191915,downsloping,0,fixed defect,0.952486829,ID5,B
+64.31317695,male,,131.1933329,,TRUE,normal,175.9213315,no,1.37022541,flat,1.015314682,fixed defect,0,ID223,C
+42.15912978,male,non-anginal pain,134.0701439,,FALSE,normal,172.4763864,no,2.011594021,flat,,fixed defect,1.016674325,ID117,B
+40.78831468,female,atypical angina,126.8455485,198.5212529,FALSE,normal,173.4532677,no,1.356092672,downsloping,0,fixed defect,0.976070143,ID3,C
+56.55958832,male,non-anginal pain,121.4691853,220.4530077,TRUE,ST-T wave abnormality,133.726488,no,2.155953921,flat,0.981996867,normal,0,ID283,C
+56.14648768,male,typical angina,105.8600622,,FALSE,normal,113.2580938,yes,0,flat,1.028426293,fixed defect,0,ID265,B
+63.18985075,female,non-anginal pain,148.7360411,268.8239309,FALSE,ST-T wave abnormality,141.9571024,,0.816469443,downsloping,0,fixed defect,0.983323905,ID39,C
+53.06064518,,typical angina,141.6697384,210.7321806,,ST-T wave abnormality,111.3878691,yes,5.773987374,upsloping,0,reversible defect,0,ID222,B
+57.20857081,,typical angina,191.6721454,278.5843087,TRUE,normal,130.3974594,yes,4.115378115,upsloping,2.016618942,reversible defect,0,ID224,A
+34.95684715,male,asymptomatic,122.4166615,183.1362837,FALSE,normal,180.0648759,no,0,downsloping,0,fixed defect,0.991026748,ID59,A
+48.91910368,male,non-anginal pain,138.4584781,281.1051656,FALSE,ST-T wave abnormality,155.8686869,no,0.60437407,flat,0.964025437,reversible defect,0,ID189,A
+58.52661271,female,asymptomatic,151.2354434,234.0105679,FALSE,ST-T wave abnormality,172.2285608,no,0.863688844,,0,fixed defect,0.989951302,ID148,B
+,,,135.3033147,332.8605424,FALSE,normal,164.9476449,,0,downsloping,0,,0,ID183,B
+51.88346807,male,,107.3273482,249.0608992,,ST-T wave abnormality,126.8296957,yes,2.707052675,flat,1.042588843,,0,ID225,B
+59.73928597,male,typical angina,113.2275964,208.6862139,FALSE,ST-T wave abnormality,,yes,1.556868372,flat,0,normal,1.007957807,ID139,A
+55.24307788,female,atypical angina,124.1741049,237.9130672,FALSE,normal,170.4468051,no,0,flat,1.01989956,fixed defect,,ID303,B
+47.68630428,male,typical angina,154.8362326,247.125292,FALSE,normal,133.3368068,no,,flat,0,reversible defect,0,ID185,A
+61.0033848,male,typical angina,139.601999,182.6689188,FALSE,ST-T wave abnormality,159.7051704,yes,0,downsloping,1.027485474,reversible defect,0,ID210,B
+49.27551507,,non-anginal pain,113.1782072,232.8683176,,ST-T wave abnormality,157.8996429,no,0,downsloping,0,fixed defect,0,ID231,A
+53.18607756,male,typical angina,121.5960241,294.2206891,FALSE,normal,112.1997781,yes,3.104304553,flat,,fixed defect,0,ID269,A
+53.51695796,male,atypical angina,194.4454872,,FALSE,normal,,no,0,downsloping,1.026216527,reversible defect,0,ID249,C
+56.17332575,male,typical angina,133.6657535,241.9175448,FALSE,ST-T wave abnormality,159.2662095,no,1.181403945,downsloping,,fixed defect,0.960887151,ID11,C
+,female,atypical angina,,,FALSE,ST-T wave abnormality,159.6748113,no,1.153126225,downsloping,0,fixed defect,1.001148209,ID162,B
+50.32993383,male,atypical angina,126.2881323,259.453615,FALSE,ST-T wave abnormality,178.9618007,no,0.580603403,downsloping,0,fixed defect,0.999213521,ID13,B
+51.91977362,male,non-anginal pain,128.4034827,255.3146031,TRUE,normal,177.2989409,no,0,downsloping,2.998426716,fixed defect,1.016869201,ID100,B
+54.8229886,male,non-anginal pain,147.9010973,171.1182258,FALSE,ST-T wave abnormality,173.4246692,no,1.588336251,downsloping,0,fixed defect,1.028438302,ID10,A
+43.85206789,,,109.6051622,206.8852252,FALSE,ST-T wave abnormality,164.916617,no,,downsloping,0,,1.006486142,ID114,A
+52.71189452,male,typical angina,125.3437054,290.4309875,FALSE,normal,115.248504,yes,3.216633054,flat,,fixed defect,0,ID269,A
+37.55242082,male,non-anginal pain,,258.8388432,FALSE,ST-T wave abnormality,186.6754158,no,3.603769428,upsloping,0,,1.049315124,ID2,A
+49.46713956,male,non-anginal pain,142.8141411,289.7537185,FALSE,ST-T wave abnormality,155.7474218,no,0.599677719,flat,1.045201323,reversible defect,0,ID189,A
+,,typical angina,104.9828291,196.6570845,FALSE,normal,,no,0,downsloping,1.002044765,fixed defect,0,ID201,A
+44.08145652,male,atypical angina,125.0462929,283.0375876,FALSE,,164.0185857,no,0,downsloping,,fixed defect,1.039571434,ID133,B
+59.47227371,female,,144.1009151,256.7948976,FALSE,normal,167.2964173,no,3.630067102,upsloping,1.951873309,,0,ID168,B
+65.7318122,male,typical angina,159.0124078,277.2166503,FALSE,normal,112.9695747,,,,3.079969532,fixed defect,0,ID166,C
+,female,atypical angina,109.4258112,210.0951022,,ST-T wave abnormality,163.4409769,no,0,downsloping,0,fixed defect,1.048749229,ID119,A
+72.49790862,male,atypical angina,,236.8400788,,normal,147.3797125,no,0,downsloping,,fixed defect,,ID146,B
+,female,typical angina,144.7870155,235.9616784,FALSE,,127.7197166,yes,0.206845068,flat,0,reversible defect,0,ID299,C
+58.61795978,male,typical angina,138.3493655,303.4595175,FALSE,normal,167.4958876,no,1.164288701,flat,1.927651257,reversible defect,0,ID238,B
+,female,atypical angina,,,FALSE,ST-T wave abnormality,168.0163948,no,1.147981836,downsloping,0,fixed defect,0.995198107,ID162,B
+51.01890095,female,typical angina,134.9684238,230.2450134,FALSE,normal,162.4491326,no,0,downsloping,0,fixed defect,0.989591882,ID50,B
+59.96514304,male,typical angina,199.5136424,267.0743199,FALSE,normal,177.6829826,no,0,downsloping,0,fixed defect,0.964404535,ID122,A
+42.85159463,male,asymptomatic,112.9459035,253.2150816,FALSE,ST-T wave abnormality,136.3280693,no,1.17982276,flat,0,reversible defect,0,ID300,A
+60.62263321,male,non-anginal pain,146.8371446,178.3944775,FALSE,normal,157.4485911,no,3.085218565,flat,0,,0,ID195,B
+57.03953863,male,typical angina,203.9861072,265.7152821,FALSE,normal,185.1615091,no,0,downsloping,0,fixed defect,0.961827671,ID122,A
+48.68317256,,typical angina,144.8579962,,FALSE,normal,126.7980729,yes,0.923964557,flat,0,reversible defect,0,ID258,B
+70.77776172,male,non-anginal pain,,257.4873625,FALSE,ST-T wave abnormality,108.645378,yes,2.837387624,flat,1.041586401,reversible defect,0,ID241,B
+39.57976045,male,non-anginal pain,,182.4511584,FALSE,ST-T wave abnormality,165.7191752,no,0,downsloping,4.092106091,,1.011439234,ID165,A
+78.06751523,female,non-anginal pain,138.3909344,206.2013776,FALSE,left ventricular hypertrophy,110.3455406,no,1.12827685,flat,0,fixed defect,0.975659482,ID145,C
+48.19979558,female,typical angina,127.1708932,258.5564325,FALSE,ST-T wave abnormality,,no,0,downsloping,0,fixed defect,1.046666149,ID136,A
+,male,typical angina,,278.0527715,FALSE,normal,,,0,downsloping,0.975062447,fixed defect,0,ID186,B
+57.439703,,typical angina,122.9153107,246.1808091,FALSE,normal,142.1081388,yes,2.722384259,flat,0.973003506,reversible defect,0,ID202,A
+68.0492993,female,atypical angina,161.8277486,291.6606888,FALSE,ST-T wave abnormality,155.4495402,,0.384392826,downsloping,2.083899308,fixed defect,0.985204332,ID26,C
+55.87246808,,typical angina,196.2922116,277.9771382,TRUE,normal,126.6701635,yes,4.199666626,upsloping,2.003072687,reversible defect,0,ID224,A
+70.03304383,female,non-anginal pain,,,TRUE,,125.2966386,no,0,downsloping,1.012909923,fixed defect,0.952011523,ID61,B
+64.93643613,,atypical angina,114.7171853,278.8925622,FALSE,normal,101.2960273,no,1.464799427,flat,0.993307588,reversible defect,0,ID227,C
+62.90714591,female,,186.8874681,271.369053,FALSE,ST-T wave abnormality,97.52049902,no,1.207455058,flat,1.00402741,reversible defect,0,ID217,A
+54.82798951,male,typical angina,122.7705083,280.2272681,FALSE,normal,121.3700498,yes,3.231415858,flat,,fixed defect,0,ID269,A
+53.61687953,male,typical angina,128.750298,220.7085985,FALSE,,170.0956702,no,1.008343543,downsloping,2.067419827,reversible defect,0,ID276,B
+54.69956308,female,typical angina,181.6003112,336.6133836,FALSE,,113.355034,yes,3.239656069,flat,0,fixed defect,0,ID267,A
+52.97139757,female,non-anginal pain,105.0533838,265.3158413,FALSE,normal,160.5915859,no,0,,0,fixed defect,0.979611122,ID124,B
+43.13789552,female,non-anginal pain,118.8363066,207.8909995,FALSE,ST-T wave abnormality,164.5804719,no,0.190125064,flat,0,fixed defect,0.96549295,ID75,B
+56.11210769,male,non-anginal pain,104.6330967,249.9003897,FALSE,normal,147.18223,,0.622758055,flat,0,reversible defect,0.961582059,ID80,C
+57.56041097,male,non-anginal pain,144.5366473,121.8166742,TRUE,ST-T wave abnormality,170.7274423,no,0.203361852,downsloping,0.96156171,reversible defect,0.965612572,ID112,A
+40.95241592,male,typical angina,122.2994207,224.7235508,FALSE,normal,114.4142786,yes,2.5015107,flat,0,reversible defect,0,ID179,C
+54.84154786,male,non-anginal pain,134.0937906,256.0659516,TRUE,normal,164.9983248,no,0,downsloping,3.03816211,fixed defect,0.996013746,ID100,B
+52.2332707,male,atypical angina,106.572931,302.5978759,FALSE,,159.8218987,no,0,downsloping,,reversible defect,1.001735799,ID62,C
+,male,typical angina,134.442887,261.1078072,TRUE,normal,154.3047241,yes,0,downsloping,2.068108802,reversible defect,0,ID220,B
+58.67005409,male,non-anginal pain,150.6027888,123.0250967,TRUE,ST-T wave abnormality,177.2395617,no,0.191139665,downsloping,1.011545069,reversible defect,1.01570791,ID112,A
+51.04718772,male,non-anginal pain,104.6220132,216.0147844,FALSE,,140.9972249,,1.214043542,flat,0,fixed defect,1.024521434,ID67,C
+65.17786658,female,typical angina,124.2964265,,FALSE,ST-T wave abnormality,138.3091454,yes,0,flat,0,fixed defect,0,ID297,A
+66.71522197,female,typical angina,176.8258072,334.2709834,FALSE,ST-T wave abnormality,158.4411812,yes,0,downsloping,0,fixed defect,1.002976891,ID111,A
+,male,typical angina,124.8124696,284.6962949,FALSE,ST-T wave abnormality,98.10801446,yes,1.940428092,,2.033323168,reversible defect,0,ID263,B
+64.4358017,male,asymptomatic,148.4324255,232.5206808,TRUE,normal,,no,2.368566745,upsloping,0,normal,,ID1,B
+41.56322854,male,typical angina,130.9763108,307.8216063,FALSE,ST-T wave abnormality,130.4048491,,1.843503911,flat,0,normal,0,ID281,A
+40.77329093,male,non-anginal pain,133.7639427,178.8092862,,,150.9249516,no,,downsloping,0,fixed defect,0.989837419,ID150,C
+65.96226559,female,non-anginal pain,166.4387147,357.753702,FALSE,normal,151.6299915,,0.769365819,downsloping,0,,0.95508057,ID40,B
+43.87920782,female,typical angina,99.33864821,252.0987066,FALSE,normal,116.4261822,no,,flat,0,fixed defect,1.037291908,ID85,C
+33.11855779,male,asymptomatic,122.7495891,183.8931219,FALSE,normal,173.5748506,no,0,downsloping,0,fixed defect,1.019593334,ID59,A
+44.77651282,male,atypical angina,114.6748501,216.5736636,FALSE,ST-T wave abnormality,170.2498815,no,0,downsloping,0,fixed defect,1.007758246,ID69,A
+66.73523605,male,typical angina,118.8808932,247.6823197,FALSE,ST-T wave abnormality,67.83775467,no,1.011228295,flat,0,fixed defect,0,ID273,C
+51.94885939,male,non-anginal pain,102.4294987,220.0588532,FALSE,,147.2794881,,1.184381088,flat,0,fixed defect,1.034501201,ID67,C
+,male,typical angina,152.79667,298.8453187,FALSE,normal,146.9665052,yes,0.836354953,flat,1.040180321,reversible defect,0,ID233,C
+45.99086624,male,non-anginal pain,114.8231794,228.7827649,FALSE,,,no,0,downsloping,0,,,ID149,C
+66.02987318,male,asymptomatic,160.1647461,240.7877125,TRUE,normal,135.670463,no,0.099415755,flat,0.979542602,fixed defect,1.037675528,ID107,A
+34.44390253,male,asymptomatic,113.1632518,175.5402284,FALSE,normal,182.3738539,no,0,downsloping,0,fixed defect,1.046416173,ID59,A
+59.72924642,male,non-anginal pain,131.4666944,224.8884628,FALSE,normal,156.0329167,no,0.392698242,,0.957759522,,,ID211,B
+42.73901768,female,atypical angina,135.4304871,211.7269855,FALSE,normal,177.8684667,no,1.379184646,downsloping,0,fixed defect,1.036647372,ID3,C
+58.39026648,male,typical angina,125.51017,,FALSE,normal,132.6619125,yes,3.100522064,,2.040208966,reversible defect,0,ID257,A
+,female,asymptomatic,156.9368209,294.7466861,TRUE,normal,156.0814739,,1.010248973,downsloping,0,fixed defect,0.983009408,ID15,C
+56.80117269,male,atypical angina,119.0087528,279.9442821,FALSE,,163.4437032,no,,flat,0,fixed defect,0,ID173,C
+43.4747721,male,non-anginal pain,134.2731613,180.739095,,,148.5298508,no,,downsloping,0,fixed defect,0.960107227,ID150,C
+63.12234326,female,typical angina,181.659639,319.4287101,FALSE,ST-T wave abnormality,160.9804924,yes,0,downsloping,0,fixed defect,0.986368119,ID111,A
+,female,asymptomatic,151.4299829,289.2105473,TRUE,normal,156.9776011,,1.009491155,downsloping,0,fixed defect,0.964917353,ID15,C
+,,non-anginal pain,106.5480082,246.5586866,FALSE,ST-T wave abnormality,184.8217218,no,0,downsloping,0,fixed defect,1.017617133,ID81,A
+49.60420981,male,atypical angina,108.173193,229.8339452,FALSE,ST-T wave abnormality,165.8178037,no,1.020348843,upsloping,,reversible defect,0,ID172,A
+60.383827,male,typical angina,146.4484576,173.2364896,FALSE,ST-T wave abnormality,160.5678241,yes,0,downsloping,0.976310405,reversible defect,0,ID210,B
+52.7040169,male,typical angina,128.4106544,251.9295387,FALSE,ST-T wave abnormality,158.6434124,yes,0,downsloping,0.974251429,reversible defect,,ID206,B
+58.44845462,,typical angina,203.737789,294.4572804,TRUE,normal,132.7706959,yes,3.886727217,upsloping,2.088742467,reversible defect,0,ID224,A
+54.33644615,male,typical angina,107.3487504,229.3076107,FALSE,ST-T wave abnormality,153.25318,no,0,downsloping,0.954191046,fixed defect,0,ID262,C
+,female,atypical angina,105.8548847,209.3217693,,ST-T wave abnormality,171.189743,no,0,downsloping,0,fixed defect,1.048138659,ID119,A
+59.05557057,male,typical angina,166.1630241,184.4517003,TRUE,normal,90.79944947,no,0.960499416,,1.910089231,normal,0,ID298,C
+66.39848271,male,,143.401684,,TRUE,normal,172.4463857,no,1.352737681,flat,1.04162622,fixed defect,0,ID223,C
+57.74960012,male,atypical angina,129.225248,248.8966023,FALSE,ST-T wave abnormality,134.5248417,no,0.290856326,downsloping,0,reversible defect,0,ID278,C
+68.37254013,male,asymptomatic,153.0428036,226.2779875,TRUE,normal,130.6865031,no,0.097245038,flat,0.993493588,fixed defect,1.008952486,ID107,A
+61.89459797,male,,115.53689,265.5525545,FALSE,,136.5225386,yes,3.571239012,flat,1.034177713,,,ID212,B
+58.56082391,male,,131.8243819,212.9249011,FALSE,normal,170.1695269,no,0,downsloping,0,reversible defect,0.993839819,ID160,A
+59.39953125,male,,151.1582229,195.4920256,FALSE,ST-T wave abnormality,166.246332,no,0,downsloping,0.952479336,reversible defect,0,ID291,C
+58.28808406,female,,135.9422457,307.0368578,FALSE,normal,145.7187467,no,1.328611416,,0,fixed defect,0.959946964,ID7,B
+29.61733612,,atypical angina,,194.937149,,normal,196.7991488,no,0,downsloping,0,fixed defect,0.991999603,ID73,B
+59.04374467,male,non-anginal pain,121.5177992,213.0318961,TRUE,ST-T wave abnormality,132.6869682,no,2.090429392,flat,1.027081758,normal,0,ID283,C
+41.70845505,male,typical angina,149.1627393,241.6317171,FALSE,ST-T wave abnormality,168.0179076,no,1.434028954,downsloping,0,fixed defect,1.042121727,ID19,C
+52.19455688,female,atypical angina,130.9706176,286.6087351,TRUE,normal,162.6247187,yes,0,downsloping,1.013644823,fixed defect,0.955064495,ID94,A
+38.9970258,male,atypical angina,108.9765412,243.3127937,,ST-T wave abnormality,149.7472632,no,0,downsloping,0,fixed defect,0.958702414,ID134,A
+66.51325236,female,non-anginal pain,152.6090116,277.0184794,FALSE,ST-T wave abnormality,145.7249962,,0.785005568,downsloping,0,fixed defect,1.007570034,ID39,C
+62.81514746,male,typical angina,138.2111756,283.0957066,FALSE,normal,165.9649264,no,1.181371197,flat,1.985939013,reversible defect,0,ID238,B
+,male,,153.8142725,203.2628378,FALSE,normal,148.472977,no,0.832733938,flat,0,reversible defect,0,ID294,B
+55.67062472,male,atypical angina,121.5846421,226.6183109,FALSE,ST-T wave abnormality,171.348553,no,0.802560514,downsloping,0,fixed defect,,ID4,B
+67.41967413,male,typical angina,,165.4604699,FALSE,ST-T wave abnormality,121.3838081,yes,,upsloping,0,reversible defect,0,ID226,B
+41.88653143,male,,110.6340882,289.8443572,FALSE,ST-T wave abnormality,182.6724736,no,1.241483562,flat,0,fixed defect,1.028853101,ID142,B
+47.3988633,female,non-anginal pain,139.7365209,175.7446911,FALSE,normal,154.4862631,yes,1.383707165,upsloping,0,fixed defect,0.994920007,ID36,C
+43.54513139,male,atypical angina,116.0869913,273.2413007,FALSE,ST-T wave abnormality,164.7118771,no,0,downsloping,0,reversible defect,1.009527465,ID8,A
+40.427423,male,typical angina,112.0991802,167.7914895,FALSE,normal,153.2411179,no,0,downsloping,0,reversible defect,0,ID190,B
+,female,atypical angina,,,FALSE,ST-T wave abnormality,171.2858686,no,1.200150848,downsloping,0,fixed defect,0.967462076,ID162,B
+42.96549375,male,typical angina,114.0324092,,FALSE,ST-T wave abnormality,,yes,2.670826524,upsloping,0,,0,ID295,B
+,female,atypical angina,103.7342814,,FALSE,ST-T wave abnormality,166.8038988,no,0,downsloping,0.994653388,fixed defect,0.956403549,ID31,C
+56.15737459,male,typical angina,107.5527741,326.2456485,FALSE,ST-T wave abnormality,147.3951948,yes,3.069574599,flat,1.012590247,reversible defect,0,ID289,B
+41.34628987,male,non-anginal pain,128.9775238,186.6465179,,,146.7813661,no,,downsloping,0,fixed defect,1.012117089,ID150,C
+51.83913387,male,typical angina,143.062909,203.9611324,,normal,162.0924916,yes,3.193122538,upsloping,0,reversible defect,0,ID170,A
+71.02542598,female,non-anginal pain,,,TRUE,,127.7498903,no,0,downsloping,0.951918634,fixed defect,1.037249551,ID61,B
+53.68066512,female,,145.63561,300.2059024,FALSE,normal,155.9074923,no,1.288314424,,0,fixed defect,1.017536139,ID7,B
+56.46885555,,typical angina,135.2445597,222.5145133,,ST-T wave abnormality,105.8456302,yes,5.354933895,upsloping,0,reversible defect,0,ID222,B
+57.33046535,male,typical angina,167.1910586,287.66397,,normal,124.5159699,no,,flat,3.096897269,,0,ID232,A
+62.63850592,male,typical angina,130.3863811,,FALSE,ST-T wave abnormality,146.6782946,yes,1.389983689,downsloping,1.016624952,reversible defect,0,ID187,C
+60.7090262,male,,146.5495469,217.8398736,TRUE,normal,166.6837333,no,0,,0,fixed defect,0.961647281,ID65,A
+53.75152544,male,asymptomatic,118.2461693,177.9582037,FALSE,normal,193.4018167,no,0,flat,0,normal,0.975417917,ID63,C
+66.09218775,female,non-anginal pain,159.5627019,371.2059557,FALSE,normal,154.1881045,,0.782064027,downsloping,0,,1.033456474,ID40,B
+57.58394916,female,non-anginal pain,101.8746221,,FALSE,ST-T wave abnormality,155.7861858,no,0,downsloping,0.963607661,fixed defect,0.953877778,ID83,C
+55.48785917,female,non-anginal pain,119.1770651,350.8014423,FALSE,ST-T wave abnormality,179.9175609,no,0,downsloping,0,fixed defect,,ID17,C
+62.13956285,female,,165.4042333,155.8251653,FALSE,normal,148.1095554,no,6.257919101,upsloping,2.940784443,reversible defect,0,ID205,C
+56.17548495,male,atypical angina,182.4431296,,FALSE,normal,,no,0,downsloping,1.037157619,reversible defect,0,ID249,C
+64.05107263,female,typical angina,123.2622686,,FALSE,ST-T wave abnormality,140.5106234,yes,0,flat,0,fixed defect,0,ID297,A
+46.75053763,male,atypical angina,96.15172459,187.5394634,TRUE,ST-T wave abnormality,150.794502,no,0,downsloping,0,reversible defect,,ID88,B
+66.01761512,male,typical angina,125.9744259,245.8593237,FALSE,normal,92.37510183,yes,,upsloping,1.041838448,fixed defect,0,ID234,C
+57.17797087,male,asymptomatic,127.6633949,195.180822,FALSE,,,no,0.790614937,downsloping,1.964505581,fixed defect,0,ID287,B
+52.88054976,male,typical angina,118.2855788,,FALSE,normal,,yes,2.210869718,flat,,reversible defect,0,ID188,B
+61.13915009,male,asymptomatic,,225.3251175,FALSE,,152.4658891,no,0.597439703,flat,0,reversible defect,1.045420575,ID153,B
+60.24668727,male,asymptomatic,138.7052705,238.525157,FALSE,ST-T wave abnormality,151.4580896,no,2.570080452,flat,2.022981645,fixed defect,0,ID272,B
+56.26483924,female,typical angina,99.2542812,248.8901264,FALSE,normal,121.8976587,no,0.973298968,flat,0,fixed defect,0.979622967,ID90,B
+59.18902112,female,typical angina,129.3501024,293.8834133,FALSE,normal,152.5244178,no,0,downsloping,1.039699574,fixed defect,0.958272023,ID60,B
+61.08838416,female,non-anginal pain,100.5564705,,FALSE,ST-T wave abnormality,165.4042829,no,0,downsloping,1.01276534,fixed defect,1.015793895,ID83,C
+68.1328527,female,typical angina,186.3485874,239.381538,TRUE,ST-T wave abnormality,168.7212199,yes,,flat,2.038443463,reversible defect,0,ID261,C
+55.08977922,male,typical angina,218.5428329,286.3601339,,normal,107.388924,yes,0.616973449,flat,0.973343625,normal,0,ID180,A
+35.43395782,male,typical angina,120.2543187,286.4723826,FALSE,normal,148.5896686,yes,0,downsloping,0,reversible defect,0,ID240,B
+61.17272588,,,138.7941172,228.8299874,FALSE,ST-T wave abnormality,171.4174709,yes,0,,0,fixed defect,0.99027106,ID78,B
+43.75333969,male,,110.5959957,309.3894677,FALSE,ST-T wave abnormality,180.6914999,no,1.153305094,flat,0,fixed defect,1.008178249,ID142,B
+46.51001801,male,typical angina,118.1310501,268.6574905,FALSE,normal,191.6356323,no,0,downsloping,0,fixed defect,,ID58,A
+43.05518052,male,atypical angina,132.6754286,,FALSE,,165.1701187,no,0,,0,fixed defect,0.966624685,ID82,A
+51.31308662,female,typical angina,133.2476245,257.7109429,FALSE,ST-T wave abnormality,,no,0,downsloping,0,fixed defect,0.959908817,ID136,A
+59.34720013,male,,142.0439389,218.9859358,TRUE,normal,172.9277103,no,0,,0,fixed defect,1.044402128,ID65,A
+67.34709428,male,typical angina,108.567752,217.8839597,FALSE,,135.1007983,yes,,downsloping,,fixed defect,,ID266,B
+60.80091433,male,asymptomatic,138.4804646,231.7918632,FALSE,ST-T wave abnormality,150.256425,no,2.588481219,flat,1.953070943,fixed defect,0,ID272,B
+42.58850297,female,non-anginal pain,122.0361203,206.4052623,FALSE,ST-T wave abnormality,180.3561576,,0,flat,0,fixed defect,1.037006825,ID143,C
+62.89162635,male,typical angina,109.6959016,222.0364802,FALSE,,133.8041063,yes,,downsloping,,fixed defect,,ID266,B
+,male,typical angina,117.9558798,236.7648942,TRUE,ST-T wave abnormality,160.9153698,yes,1.408871285,downsloping,2.023376047,reversible defect,0,ID177,C
+58.58785787,female,non-anginal pain,121.6211307,175.7508523,TRUE,ST-T wave abnormality,97.26179966,no,0,downsloping,0,fixed defect,1.031537218,ID137,C
+49.91137235,male,typical angina,135.9004046,267.3263252,FALSE,normal,188.9403962,yes,0,downsloping,0,fixed defect,0.957273186,ID74,C
+61.31230022,female,,166.9432465,171.2001946,FALSE,normal,138.9244321,no,6.436113004,upsloping,2.907486743,reversible defect,0,ID205,C
+54.0284271,male,typical angina,140.900613,237.1627607,FALSE,ST-T wave abnormality,167.199366,no,1.253735582,downsloping,,fixed defect,0.960378213,ID11,C
+39.85544998,male,non-anginal pain,127.1285938,,FALSE,normal,168.9604348,no,1.984325353,flat,,fixed defect,1.04793637,ID117,B
+54.18014425,male,typical angina,167.4856901,283.378227,,normal,122.5675076,no,,flat,2.875568532,,0,ID232,A
+56.65696319,male,non-anginal pain,153.9191381,228.8801248,FALSE,,168.0370064,no,1.607893782,downsloping,0,reversible defect,,ID38,A
+53.90779171,,non-anginal pain,124.6847176,246.9738417,FALSE,normal,151.7404123,no,0.417439324,flat,0,reversible defect,,ID71,B
+,,typical angina,106.2706927,187.9059305,FALSE,normal,,no,0,downsloping,1.029794613,fixed defect,0,ID201,A
+51.65029663,male,non-anginal pain,134.5117518,229.9423689,FALSE,ST-T wave abnormality,176.0149068,no,,downsloping,4.197010211,fixed defect,1.043961674,ID93,C
+,female,,133.0613753,276.2633255,FALSE,ST-T wave abnormality,163.7401212,no,0,flat,0,fixed defect,0.962347121,ID132,A
+42.17282061,male,typical angina,140.2335644,319.2493941,FALSE,ST-T wave abnormality,124.3766477,,1.801046827,flat,0,normal,0,ID281,A
+52.4097745,male,typical angina,186.3427456,249.8141995,FALSE,,109.4898677,no,1.361716351,flat,1.031118558,reversible defect,0,ID193,C
+,female,non-anginal pain,117.7515029,245.3357387,FALSE,ST-T wave abnormality,145.0758188,no,0.286808959,flat,,,0.968731502,ID147,C
+44.56601559,female,typical angina,143.9949662,243.9213135,FALSE,normal,151.6128641,yes,0.19451085,,0,fixed defect,1.041747571,ID108,C
+63.17649638,male,typical angina,138.8111015,171.992881,FALSE,,127.9680681,yes,3.657897903,flat,0.964307727,fixed defect,,ID280,B
+58.95421341,male,non-anginal pain,128.825205,,,normal,180.6249716,no,3.071319568,downsloping,2.067686904,reversible defect,0,ID174,C
+62.93998901,female,typical angina,,,FALSE,normal,145.711999,yes,0.96760166,flat,0,,0,ID214,C
+55.26714299,male,,142.003681,183.8801005,FALSE,ST-T wave abnormality,148.9861366,no,0.394781332,flat,,normal,1.022524738,ID6,B
+68.95744351,female,,156.6250113,263.2258575,FALSE,ST-T wave abnormality,168.1092781,no,0,downsloping,0.963521465,fixed defect,1.024863582,ID128,A
+65.00853285,female,typical angina,146.021017,411.1959173,FALSE,normal,149.5453253,no,3.879766958,flat,2.965975017,reversible defect,0,ID221,C
+,female,atypical angina,,,FALSE,ST-T wave abnormality,164.954193,no,1.183933686,downsloping,0,fixed defect,1.031178418,ID162,B
+,male,,174.3033959,297.6841636,FALSE,normal,162.5806893,no,0.200104662,flat,0,reversible defect,0,ID229,B
+,female,atypical angina,124.1107568,304.747814,FALSE,ST-T wave abnormality,159.0093593,no,0,downsloping,0,fixed defect,0.96766072,ID135,C
+52.11284055,male,typical angina,130.5382087,214.6782134,FALSE,,160.5493582,no,0.98010263,downsloping,2.034634287,reversible defect,0,ID276,B
+65.18016583,female,typical angina,129.0667772,,FALSE,ST-T wave abnormality,136.8079826,yes,0,flat,0,fixed defect,0,ID297,A
+58.33041015,female,typical angina,148.5534033,249.1045537,FALSE,normal,156.3781862,no,2.602100666,flat,1.976276605,reversible defect,0,ID208,C
+63.30813007,female,typical angina,127.5237824,,FALSE,ST-T wave abnormality,142.7899177,yes,0,flat,0,fixed defect,0,ID297,A
+54.2237321,male,typical angina,147.1009048,222.9020287,FALSE,normal,,yes,0,downsloping,0,reversible defect,1.024316247,ID96,C
+45.47721176,male,typical angina,115.0497694,,FALSE,ST-T wave abnormality,144.2241572,no,0.103819527,downsloping,0,fixed defect,1.03443165,ID127,C
+58.44434211,male,typical angina,124.1194049,,FALSE,ST-T wave abnormality,147.8242189,yes,1.417336557,downsloping,1.044145211,reversible defect,0,ID187,C
+38.38470202,male,non-anginal pain,,175.8189937,FALSE,ST-T wave abnormality,166.8021119,no,0,downsloping,3.986023139,,1.010025473,ID165,A
+50.90943628,male,non-anginal pain,129.8625363,238.8938576,TRUE,normal,165.9053237,no,2.357516202,flat,,fixed defect,0.987370756,ID77,A
+39.33839073,female,atypical angina,125.4156022,203.6137175,FALSE,normal,173.7461701,no,1.443637315,downsloping,0,fixed defect,0.954126906,ID3,C
+,female,atypical angina,,,FALSE,ST-T wave abnormality,173.6334041,no,1.162710914,downsloping,0,fixed defect,0.98084545,ID162,B
+33.77987725,female,atypical angina,116.7997329,202.6124823,,ST-T wave abnormality,186.3416832,no,0.685784393,downsloping,0,fixed defect,,ID126,B
+64.96066604,female,typical angina,149.1287737,410.7198704,FALSE,normal,159.797817,no,4.187410991,flat,3.029205403,reversible defect,0,ID221,C
+53.75641202,male,typical angina,119.727616,,FALSE,normal,,yes,2.124731702,flat,,reversible defect,0,ID188,B
+39.26738859,male,typical angina,118.5294681,223.5367083,FALSE,ST-T wave abnormality,146.2522537,,1.144762371,flat,0,reversible defect,0,ID213,C
+42.77504265,female,atypical angina,110.6035602,165.6836097,,,141.1333065,no,0,flat,0,fixed defect,1.026760152,ID95,B
+57.92139662,male,typical angina,124.0981805,213.8065555,FALSE,normal,126.0324365,yes,2.298342457,flat,1.998868865,reversible defect,0,ID175,C
+63.0769032,female,typical angina,155.4947738,224.2919305,FALSE,normal,118.0036162,no,1.026213102,flat,,reversible defect,0,ID182,A
+54.08617027,female,,164.0299705,207.3678372,FALSE,ST-T wave abnormality,155.1242809,no,0,,1.018946833,fixed defect,0.964377046,ID131,C
+48.75639291,male,atypical angina,125.9183184,274.2113675,FALSE,ST-T wave abnormality,174.7549774,no,0.575554844,downsloping,0,fixed defect,0.965769715,ID13,B
+66.61046726,male,non-anginal pain,129.9418317,347.1794433,,ST-T wave abnormality,134.9745402,yes,1.746463709,flat,0,reversible defect,0,ID230,C
+46.09929159,male,typical angina,,,FALSE,normal,141.8626348,no,0.800932943,downsloping,0,reversible defect,0,ID271,C
+,male,,159.2624658,205.4916709,FALSE,normal,146.9886944,no,0.824886715,flat,0,reversible defect,0,ID294,B
+47.044853,male,atypical angina,99.58455507,202.4658995,TRUE,ST-T wave abnormality,162.7855998,no,0,downsloping,0,reversible defect,,ID88,B
+47.88970933,male,non-anginal pain,216.8562166,237.4694366,FALSE,ST-T wave abnormality,141.1093979,,,flat,0,fixed defect,,ID197,A
+,,,134.8739698,329.7117092,FALSE,normal,169.3962481,,0,downsloping,0,,0,ID183,B
+,,,125.4155317,340.1869905,FALSE,normal,172.5652693,,0,downsloping,0,,0,ID183,B
+66.97689643,male,typical angina,144.7479566,214.8251832,FALSE,normal,134.2848793,no,1.921474958,flat,2.027288006,normal,0,ID243,B
+61.66343024,male,,123.1892809,264.4926381,FALSE,,137.4828063,yes,3.626707985,flat,1.021846958,,,ID212,B
+44.81294407,male,atypical angina,124.2967994,274.7775362,FALSE,ST-T wave abnormality,177.808029,no,0,downsloping,0,reversible defect,0.962422016,ID8,A
+43.26602152,male,non-anginal pain,115.1173397,218.8396129,FALSE,,,no,0,downsloping,0,,,ID149,C
+63.68675431,male,typical angina,120.5338929,268.7965011,FALSE,ST-T wave abnormality,102.8638506,yes,1.815830945,flat,2.062681234,reversible defect,0,ID199,C
+55.88654081,male,typical angina,112.8881007,197.2775136,FALSE,ST-T wave abnormality,,yes,1.464009575,flat,0,normal,0.969056086,ID139,A
+41.32313942,male,typical angina,113.3455917,164.3013245,FALSE,normal,155.8270305,no,0,downsloping,0,reversible defect,0,ID190,B
+44.07243171,male,typical angina,116.4125663,235.2841505,FALSE,normal,117.2762108,yes,2.555563708,flat,0,reversible defect,0,ID179,C
+45.1294263,male,typical angina,,254.2765721,,normal,136.4192408,yes,0.101899704,flat,4.058629011,reversible defect,,ID252,A
+,male,asymptomatic,144.267379,241.6476681,FALSE,,172.3404367,no,0.808522976,downsloping,2.004424553,fixed defect,0.950054305,ID101,B
+42.08679451,male,non-anginal pain,128.0272208,240.0178894,,ST-T wave abnormality,173.319573,yes,,,0,fixed defect,0.955319851,ID22,B
+65.64670498,female,asymptomatic,136.0082556,229.9396198,FALSE,ST-T wave abnormality,147.1702117,no,1.84699894,downsloping,2.011965327,fixed defect,1.007200778,ID20,A
+59.93943231,female,,167.8476491,169.759874,FALSE,normal,150.3956705,no,6.482180234,upsloping,2.891529939,reversible defect,0,ID205,C
+53.71370728,male,non-anginal pain,124.8694144,252.0671273,TRUE,normal,164.8491954,no,0,downsloping,3.071557417,fixed defect,1.011190142,ID100,B
+60.76277217,male,atypical angina,,,,,133.1353341,,0,downsloping,0,fixed defect,0.998700077,ID138,B
+44.28135825,male,typical angina,,,FALSE,normal,151.0105032,no,0.783323642,downsloping,0,reversible defect,0,ID271,C
+58.22861576,male,typical angina,99.49136366,228.0812847,FALSE,ST-T wave abnormality,154.6572357,,0.099308007,downsloping,1.03622093,reversible defect,0,ID274,B
+62.93972334,,typical angina,128.0365045,288.8060436,FALSE,ST-T wave abnormality,122.6884441,no,1.916316546,flat,2.057684214,fixed defect,0.964320925,ID121,C
+,female,,132.6978017,281.9201188,FALSE,ST-T wave abnormality,156.2518831,no,0,flat,0,fixed defect,1.010017614,ID132,A
+40.95962137,,,,316.715378,FALSE,,161.3409439,no,1.830873926,downsloping,,fixed defect,1.034996045,ID99,C
+58.55667929,male,,138.3361226,186.7782236,FALSE,ST-T wave abnormality,144.8460359,no,0.407893107,flat,,normal,1.012045795,ID6,B
+54.14056433,female,,134.5661254,295.9481943,TRUE,ST-T wave abnormality,169.8780572,no,0,downsloping,0,fixed defect,,ID37,C
+55.57914058,male,non-anginal pain,157.1311237,119.908408,TRUE,ST-T wave abnormality,176.9808055,no,0.201777727,downsloping,0.978884619,reversible defect,1.003013701,ID112,A
+27.62106225,,atypical angina,,204.4108982,,normal,196.0760206,no,0,downsloping,0,fixed defect,0.959097767,ID73,B
+50.35117342,male,asymptomatic,151.086806,298.7952687,TRUE,ST-T wave abnormality,175.2288077,no,1.23496406,flat,0,reversible defect,1.029550941,ID84,C
+43.923116,male,non-anginal pain,132.7724219,175.9868729,,,151.2944421,no,,downsloping,0,fixed defect,1.047404305,ID150,C
+53.58346181,male,typical angina,135.413006,175.7140749,FALSE,normal,100.4668888,yes,2.108653482,flat,1.035827935,normal,0,ID245,A
+46.64203939,female,typical angina,130.8321633,279.9620529,FALSE,ST-T wave abnormality,,no,0,downsloping,0,fixed defect,0.999383245,ID136,A
+76.58455151,female,non-anginal pain,142.9015982,190.4045518,FALSE,left ventricular hypertrophy,112.0272333,no,1.12833493,flat,0,fixed defect,1.032552599,ID145,C
+40.6986047,male,asymptomatic,,206.0006758,FALSE,ST-T wave abnormality,172.3184783,yes,1.381951309,,,reversible defect,0.953404287,ID25,B
+51.55041585,male,non-anginal pain,127.9041134,271.5164315,FALSE,normal,153.706632,no,0.476789993,upsloping,0.950737732,fixed defect,1.027891598,ID34,A
+56.42727959,male,typical angina,123.929179,,FALSE,normal,,yes,2.098731462,flat,,reversible defect,0,ID188,B
+54.31791212,male,,104.5979355,227.780131,,ST-T wave abnormality,119.9955478,yes,2.876471907,flat,1.049323949,,0,ID225,B
+70.91458061,male,typical angina,186.2691423,323.7269231,FALSE,normal,106.1111028,no,2.311828173,flat,3.031238944,fixed defect,0,ID235,C
+47.1950853,male,atypical angina,114.1926316,221.8668921,FALSE,ST-T wave abnormality,171.2038732,no,1.018689557,upsloping,,reversible defect,0,ID172,A
+60.42610613,male,non-anginal pain,133.6585567,238.7630247,FALSE,ST-T wave abnormality,141.4956967,no,1.822699848,flat,2.880099739,reversible defect,1.040782828,ID53,B
+68.45477516,female,atypical angina,158.1201713,291.4523543,FALSE,ST-T wave abnormality,159.7209859,,0.411330312,downsloping,2.022257602,fixed defect,1.003905125,ID26,C
+46.84252738,,non-anginal pain,108.0955565,250.0412043,,ST-T wave abnormality,151.6134737,no,0,downsloping,0,fixed defect,0,ID231,A
+59.76333483,male,,121.5271457,261.1253332,FALSE,,136.7356155,yes,3.628635057,flat,1.045097425,,,ID212,B
+60.87483519,male,typical angina,127.2000693,,FALSE,ST-T wave abnormality,139.4436862,yes,1.44192814,downsloping,0.958385864,reversible defect,0,ID187,C
+38.13265988,female,non-anginal pain,120.3610487,211.3741236,FALSE,ST-T wave abnormality,170.4995663,no,0,downsloping,0,fixed defect,1.024025047,ID116,C
+55.3309696,male,typical angina,160.7170197,280.4710435,,normal,119.4858928,no,,flat,3.138108234,,0,ID232,A
+57.52206183,male,atypical angina,119.2828888,247.4673861,FALSE,ST-T wave abnormality,174.4871091,no,0.77125848,downsloping,0,fixed defect,,ID4,B
+41.42168958,female,typical angina,190.361022,334.4203909,TRUE,normal,138.6528365,yes,3.015209412,flat,0,reversible defect,,ID216,B
+52.00652422,male,non-anginal pain,129.7806193,202.6872959,TRUE,normal,157.1909286,no,1.200195641,upsloping,0,fixed defect,0.973468029,ID30,A
+54.84399521,male,typical angina,125.5429372,198.6672928,FALSE,ST-T wave abnormality,159.819238,yes,0,downsloping,,reversible defect,0.967191003,ID92,A
+56.19194143,male,typical angina,106.1202712,320.7720221,FALSE,ST-T wave abnormality,138.084118,yes,2.972980017,flat,0.996614454,reversible defect,0,ID289,B
+62.64500827,,typical angina,128.3383938,252.5374877,FALSE,normal,134.0479027,yes,2.937128666,flat,0.951228423,reversible defect,0,ID202,A
+57.86809104,male,typical angina,126.8478336,212.9321136,FALSE,normal,129.8064847,yes,2.417660281,flat,2.082935159,reversible defect,0,ID175,C
+60.07055626,male,non-anginal pain,106.476126,,FALSE,normal,163.2755867,no,2.548082297,flat,0.970002376,reversible defect,0,ID184,A
+,male,typical angina,131.785643,255.5391348,TRUE,normal,152.8237412,yes,0,downsloping,2.065286826,reversible defect,0,ID220,B
+51.59036524,male,non-anginal pain,145.9420143,296.3615197,FALSE,ST-T wave abnormality,161.8622107,no,0.588669524,flat,1.049845447,reversible defect,0,ID189,A
+55.69651053,,typical angina,144.9359976,220.6769495,,ST-T wave abnormality,110.4648092,yes,5.53321116,upsloping,0,reversible defect,0,ID222,B
+58.68728084,male,atypical angina,115.1202658,242.1088959,FALSE,ST-T wave abnormality,178.842941,no,0.779710456,downsloping,0,fixed defect,,ID4,B
+53.74082361,,typical angina,197.9542089,278.915153,TRUE,normal,137.2433681,yes,4.043342674,upsloping,1.950456646,reversible defect,0,ID224,A
+72.90374618,male,non-anginal pain,,271.653452,FALSE,ST-T wave abnormality,112.7881389,yes,2.787611425,flat,0.974476972,reversible defect,0,ID241,B
+70.91444388,female,asymptomatic,140.981425,242.6823227,FALSE,ST-T wave abnormality,149.1530614,no,1.756282655,downsloping,2.021897922,fixed defect,1.040865565,ID20,A
+67.75512173,male,,140.5515207,,TRUE,normal,168.106697,no,1.440263347,flat,0.956954373,fixed defect,0,ID223,C
+62,male,typical angina,120,267,FALSE,ST-T wave abnormality,99,yes,1.8,flat,2,reversible defect,0,ID199,C
+65,male,typical angina,110,248,FALSE,normal,158,no,,downsloping,2,,0,ID200,B
+,,typical angina,110,197,FALSE,normal,,no,0,downsloping,1,fixed defect,0,ID201,A
+60,,typical angina,125,258,FALSE,normal,141,yes,2.8,flat,1,reversible defect,0,ID202,A
+58,male,typical angina,150,,FALSE,normal,111,yes,,,0,,0,ID203,B
+68,male,non-anginal pain,180,274,,normal,150,yes,1.6,flat,,reversible defect,0,ID204,C
+62,female,,160,164,FALSE,normal,145,no,6.2,upsloping,3,reversible defect,0,ID205,C
+52,male,typical angina,128,255,FALSE,ST-T wave abnormality,161,yes,0,downsloping,1,reversible defect,,ID206,B
+59,male,typical angina,110,239,FALSE,,,yes,1.2,flat,,reversible defect,0,ID207,C
+60,female,typical angina,150,258,FALSE,normal,157,no,2.6,flat,2,reversible defect,0,ID208,C
+49,,non-anginal pain,120,188,FALSE,,,no,2,flat,3,reversible defect,0,ID209,C
+59,male,typical angina,140,177,FALSE,ST-T wave abnormality,162,yes,0,downsloping,1,reversible defect,0,ID210,B
+57,male,non-anginal pain,128,229,FALSE,normal,150,no,0.4,,1,,,ID211,B
+61,male,,120,260,FALSE,,140,yes,3.6,flat,1,,,ID212,B
+39,male,typical angina,118,219,FALSE,ST-T wave abnormality,140,,1.2,flat,0,reversible defect,0,ID213,C
+61,female,typical angina,,,FALSE,normal,146,yes,1,flat,0,,0,ID214,C
+56,male,typical angina,125,249,,normal,144,yes,1.2,flat,1,fixed defect,0,ID215,C
+43,female,typical angina,198,341,TRUE,normal,136,yes,3,flat,0,reversible defect,,ID216,B
+62,female,,195,263,FALSE,ST-T wave abnormality,97,no,1.2,flat,1,reversible defect,0,ID217,A
+63,male,typical angina,195,330,TRUE,normal,132,yes,1.8,downsloping,3,reversible defect,,ID218,B
+65,male,typical angina,135,254,FALSE,,127,no,,flat,1,reversible defect,0,ID219,C
+,male,typical angina,130,256,TRUE,normal,150,yes,0,downsloping,2,reversible defect,0,ID220,B
+63,female,typical angina,150,407,FALSE,normal,154,no,4,flat,3,reversible defect,0,ID221,C
+55,,typical angina,140,217,,ST-T wave abnormality,111,yes,5.6,upsloping,0,reversible defect,0,ID222,B
+65,male,,138,,TRUE,normal,174,no,1.4,flat,1,fixed defect,0,ID223,C
+56,,typical angina,200,288,TRUE,normal,133,yes,4,upsloping,2,reversible defect,0,ID224,A
+54,male,,110,239,,ST-T wave abnormality,126,yes,2.8,flat,1,,0,ID225,B
+70,male,typical angina,,174,FALSE,ST-T wave abnormality,125,yes,,upsloping,0,reversible defect,0,ID226,B
+62,,atypical angina,120,281,FALSE,normal,103,no,1.4,flat,1,reversible defect,0,ID227,C
+35,male,typical angina,120,198,FALSE,ST-T wave abnormality,130,yes,,,0,reversible defect,0,ID228,B
+,male,,170,288,FALSE,normal,159,no,0.2,flat,0,reversible defect,0,ID229,B
+64,male,non-anginal pain,125,359,,ST-T wave abnormality,131,yes,1.8,flat,0,reversible defect,0,ID230,C
+47,,non-anginal pain,108,243,,ST-T wave abnormality,152,no,0,downsloping,0,fixed defect,0,ID231,A
+57,male,typical angina,165,289,,normal,124,no,,flat,3,,0,ID232,A
+,male,typical angina,160,289,FALSE,normal,145,yes,0.8,flat,1,reversible defect,0,ID233,C
+64,male,typical angina,120,246,FALSE,normal,96,yes,,upsloping,1,fixed defect,0,ID234,C
+70,male,typical angina,195,322,FALSE,normal,109,no,2.4,flat,3,fixed defect,0,ID235,C
+51,male,typical angina,140,299,FALSE,,173,yes,1.6,downsloping,0,reversible defect,0,ID236,C
+58,male,typical angina,125,300,FALSE,normal,171,,0,downsloping,2,reversible defect,0,ID237,B
+60,male,typical angina,140,293,FALSE,normal,170,no,1.2,flat,2,reversible defect,0,ID238,B
+77,,typical angina,125,304,FALSE,normal,162,,0,downsloping,3,fixed defect,0,ID239,C
+35,male,typical angina,126,282,FALSE,normal,156,yes,0,downsloping,0,reversible defect,0,ID240,B
+70,male,non-anginal pain,,269,FALSE,ST-T wave abnormality,112,yes,2.9,flat,1,reversible defect,0,ID241,B
+59,female,typical angina,174,249,FALSE,,143,yes,0,flat,0,fixed defect,0,ID242,C
+64,male,typical angina,145,212,FALSE,normal,132,no,2,flat,2,normal,0,ID243,B
+57,male,typical angina,152,274,FALSE,ST-T wave abnormality,88,yes,1.2,flat,1,reversible defect,,ID244,C
+56,male,typical angina,132,184,FALSE,normal,105,yes,2.1,flat,1,normal,0,ID245,A
+48,male,typical angina,,274,FALSE,normal,166,no,0.5,flat,0,reversible defect,,ID246,C
+56,female,typical angina,134,409,FALSE,normal,,,1.9,flat,2,reversible defect,,ID247,C
+66,male,atypical angina,160,246,,ST-T wave abnormality,120,yes,,flat,3,normal,0,ID248,C
+54,male,atypical angina,192,,FALSE,normal,,no,0,downsloping,1,reversible defect,0,ID249,C
+69,male,non-anginal pain,140,254,FALSE,normal,,no,2,flat,3,reversible defect,0,ID250,A
+51,male,typical angina,140,348,FALSE,ST-T wave abnormality,122,yes,4.2,,3,reversible defect,0,ID251,B
+43,male,typical angina,,247,,normal,143,yes,0.1,flat,4,reversible defect,,ID252,A
+62,female,typical angina,138,294,TRUE,ST-T wave abnormality,106,no,1.9,flat,,fixed defect,0,ID253,C
+67,male,typical angina,100,299,FALSE,normal,125,yes,0.9,flat,2,fixed defect,0,ID254,A
+,male,asymptomatic,160,273,FALSE,normal,125,no,,downsloping,0,fixed defect,0,ID255,B
+45,male,typical angina,,309,FALSE,normal,147,yes,0,flat,,reversible defect,0,ID256,A
+58,male,typical angina,128,,FALSE,normal,130,yes,3,,2,reversible defect,0,ID257,A
+50,,typical angina,144,,FALSE,normal,126,yes,0.9,flat,0,reversible defect,0,ID258,B
+62,,typical angina,150,244,FALSE,ST-T wave abnormality,154,,1.4,flat,0,fixed defect,0,ID259,A
+38,,asymptomatic,120,231,FALSE,ST-T wave abnormality,182,yes,3.8,flat,0,reversible defect,,ID260,A
+66,female,typical angina,178,228,TRUE,ST-T wave abnormality,165,yes,,flat,2,reversible defect,0,ID261,C
+52,male,typical angina,112,230,FALSE,ST-T wave abnormality,160,no,0,downsloping,1,fixed defect,0,ID262,C
+,male,typical angina,123,282,FALSE,ST-T wave abnormality,95,yes,2,,2,reversible defect,0,ID263,B
+63,female,typical angina,108,269,FALSE,ST-T wave abnormality,169,yes,1.8,flat,2,fixed defect,0,ID264,C
+54,male,typical angina,110,,FALSE,normal,108,yes,0,flat,1,fixed defect,0,ID265,B
+66,male,typical angina,112,212,FALSE,,132,yes,,downsloping,,fixed defect,,ID266,B
+55,female,typical angina,180,327,FALSE,,117,yes,3.4,flat,0,fixed defect,0,ID267,A
+49,male,non-anginal pain,118,149,FALSE,normal,126,no,0.8,downsloping,3,fixed defect,0,ID268,A
+54,male,typical angina,122,286,FALSE,normal,116,yes,3.2,flat,,fixed defect,0,ID269,A
+56,male,,130,283,TRUE,normal,103,yes,1.6,,0,reversible defect,0,ID270,C
+46,male,typical angina,,,FALSE,normal,144,no,0.8,downsloping,0,reversible defect,0,ID271,C
+61,male,asymptomatic,134,234,FALSE,ST-T wave abnormality,145,no,2.6,flat,2,fixed defect,0,ID272,B
+67,male,typical angina,120,237,FALSE,ST-T wave abnormality,71,no,1,flat,0,fixed defect,0,ID273,C
+58,male,typical angina,100,234,FALSE,ST-T wave abnormality,156,,0.1,downsloping,1,reversible defect,0,ID274,B
+47,male,typical angina,110,275,,normal,,yes,1,,1,fixed defect,0,ID275,B
+52,male,typical angina,125,212,FALSE,,168,no,1,downsloping,2,reversible defect,0,ID276,B
+58,male,typical angina,146,218,FALSE,ST-T wave abnormality,105,no,2,flat,1,,0,ID277,A
+57,male,atypical angina,124,261,FALSE,ST-T wave abnormality,141,no,0.3,downsloping,0,reversible defect,0,ID278,C
+,female,atypical angina,,319,TRUE,normal,152,no,0,downsloping,2,fixed defect,0,ID279,C
+61,male,typical angina,138,166,FALSE,,125,yes,3.6,flat,1,fixed defect,,ID280,B
+42,male,typical angina,136,315,FALSE,ST-T wave abnormality,125,,1.8,flat,0,normal,0,ID281,A
+52,male,typical angina,,204,TRUE,ST-T wave abnormality,,yes,1,flat,0,,0,ID282,C
+59,male,non-anginal pain,126,218,TRUE,ST-T wave abnormality,134,no,2.2,flat,1,normal,0,ID283,C
+,,typical angina,152,223,FALSE,ST-T wave abnormality,181,no,0,downsloping,0,reversible defect,0,ID284,C
+61,male,typical angina,,207,FALSE,normal,138,,1.9,downsloping,1,reversible defect,0,ID285,C
+46,male,typical angina,140,311,FALSE,ST-T wave abnormality,120,yes,1.8,flat,2,reversible defect,0,ID286,A
+59,male,asymptomatic,134,204,FALSE,,,no,0.8,downsloping,2,fixed defect,0,ID287,B
+57,male,atypical angina,154,,FALSE,normal,164,no,0,downsloping,1,fixed defect,0,ID288,B
+57,male,typical angina,110,335,FALSE,ST-T wave abnormality,143,yes,3,flat,1,reversible defect,0,ID289,B
+55,female,typical angina,128,205,FALSE,left ventricular hypertrophy,130,,2,flat,1,reversible defect,0,ID290,B
+61,male,,148,203,FALSE,ST-T wave abnormality,161,no,0,downsloping,1,reversible defect,0,ID291,C
+58,male,typical angina,114,318,FALSE,left ventricular hypertrophy,140,no,4.4,upsloping,3,normal,0,ID292,B
+58,female,typical angina,170,225,TRUE,normal,146,yes,2.8,,2,normal,0,ID293,B
+,male,,152,212,FALSE,normal,150,no,0.8,flat,0,reversible defect,0,ID294,B
+44,male,typical angina,120,,FALSE,ST-T wave abnormality,,yes,2.8,upsloping,0,,0,ID295,B
+63,male,typical angina,140,187,FALSE,normal,144,yes,4,downsloping,2,reversible defect,0,ID296,A
+63,female,typical angina,124,,FALSE,ST-T wave abnormality,136,yes,0,flat,0,fixed defect,0,ID297,A
+59,male,typical angina,164,176,TRUE,normal,90,no,1,,2,normal,0,ID298,C
+,female,typical angina,140,241,FALSE,,123,yes,0.2,flat,0,reversible defect,0,ID299,C
+45,male,asymptomatic,110,264,FALSE,ST-T wave abnormality,132,no,1.2,flat,0,reversible defect,0,ID300,A
+68,male,typical angina,216,193,TRUE,ST-T wave abnormality,141,no,3.4,flat,2,reversible defect,0,ID301,A
+57,male,typical angina,130,131,FALSE,ST-T wave abnormality,115,yes,1.2,flat,,reversible defect,0,ID302,A
+57,female,atypical angina,130,236,FALSE,normal,174,no,0,flat,1,fixed defect,,ID303,B
+64.02939283,female,,111.1074903,545.6117767,FALSE,normal,160.5139116,no,1.607784599,flat,0,reversible defect,0.982590918,ID86,A
+45.61337534,male,typical angina,,,FALSE,normal,137.7182909,no,0.807978698,downsloping,0,reversible defect,0,ID271,C
+52.93258698,male,non-anginal pain,150.3825282,234.106311,FALSE,,169.1454689,no,1.650933613,downsloping,0,reversible defect,,ID38,A
+54.14742613,female,typical angina,123.942595,205.1513352,FALSE,left ventricular hypertrophy,136.1219962,,1.909263925,flat,0.989234866,reversible defect,0,ID290,B
+58.14498393,male,typical angina,116.9006263,320.4720974,FALSE,left ventricular hypertrophy,137.255485,no,4.403231473,upsloping,2.906854201,normal,0,ID292,B
+,male,typical angina,123.0444086,278.2469698,FALSE,ST-T wave abnormality,92.9234237,yes,2.095972689,,2.092864737,reversible defect,0,ID263,B
+41.89557507,female,non-anginal pain,109.1852514,196.436468,FALSE,ST-T wave abnormality,168.7407443,no,0.607665442,flat,,fixed defect,0.996506096,ID54,C
+57.50661381,female,non-anginal pain,105.2675244,,FALSE,ST-T wave abnormality,159.1021217,no,0,downsloping,1.04060744,fixed defect,0.982037822,ID83,C
+57.06666889,male,typical angina,203.5491632,276.1088716,FALSE,normal,180.1432132,no,0,downsloping,0,fixed defect,0.990697436,ID122,A
+55.44972553,male,non-anginal pain,150.700479,132.2063497,TRUE,ST-T wave abnormality,180.5557381,no,0.202367834,downsloping,0.995822077,reversible defect,0.973341975,ID112,A
+57.25169547,male,typical angina,113.0204376,210.2635352,FALSE,ST-T wave abnormality,,yes,1.531382236,flat,0,normal,0.986840573,ID139,A
+,male,typical angina,195.5841522,,TRUE,ST-T wave abnormality,167.216494,no,0.191474274,flat,1.958755272,reversible defect,0,ID198,A
+61.94107583,female,,202.8390403,269.8617432,FALSE,ST-T wave abnormality,99.60713391,no,1.168060378,flat,0.969263402,reversible defect,0,ID217,A
+47.74498964,male,non-anginal pain,218.7705696,227.0485261,FALSE,ST-T wave abnormality,142.1079455,,,flat,0,fixed defect,,ID197,A
+60.47743755,male,typical angina,132.9756415,,FALSE,normal,131.6016156,yes,3.069580745,,2.090186619,reversible defect,0,ID257,A
+34.08744834,male,typical angina,125.3847365,204.4368633,FALSE,ST-T wave abnormality,131.6034779,yes,,,0,reversible defect,0,ID228,B
+35.4080694,male,,,188.1730097,FALSE,ST-T wave abnormality,175.8838212,no,0,downsloping,0,fixed defect,1.002243536,ID158,B
+40.99646694,male,typical angina,,237.6548223,,normal,140.5878622,yes,0.095313398,flat,4.088389102,reversible defect,,ID252,A
+55.0163962,male,typical angina,130.8400119,136.4741783,FALSE,ST-T wave abnormality,113.0902877,yes,1.201468641,flat,,reversible defect,0,ID302,A
+57.66842387,male,non-anginal pain,130.738284,224.692429,TRUE,ST-T wave abnormality,132.6056811,no,2.299162517,flat,1.00179494,normal,0,ID283,C
+54.10693546,male,non-anginal pain,125.9287162,238.4184776,TRUE,normal,164.8141534,no,0,downsloping,2.970445237,fixed defect,0.967469247,ID100,B
+67.13988306,female,non-anginal pain,125.940292,201.3410602,FALSE,normal,120.0257193,no,1.503553576,flat,,fixed defect,0.963110539,ID106,B
+,male,typical angina,142.5803864,345.3432447,,normal,138.310169,yes,,flat,2.09011667,,0,ID194,A
+60.15053293,female,typical angina,172.3732557,214.6830864,TRUE,normal,143.3435436,yes,2.909561005,,2.088540312,normal,0,ID293,B
+49.43129437,male,atypical angina,119.2522175,311.5513648,FALSE,,176.4493266,no,0.191961063,,,fixed defect,1.023548564,ID46,C
+65.30386327,male,typical angina,123.0178773,256.5194711,FALSE,ST-T wave abnormality,,yes,0.195474069,flat,0.989544,reversible defect,0.984784259,ID140,A
+44.05718796,female,non-anginal pain,114.379059,208.0546276,FALSE,ST-T wave abnormality,165.7340931,,0,flat,0,fixed defect,0.987250528,ID143,C
+,male,,139.6390465,240.6120145,FALSE,ST-T wave abnormality,,no,0.522584242,flat,0,reversible defect,1.040321382,ID21,A
+,male,asymptomatic,163.8571895,259.6990751,FALSE,normal,125.085181,no,,downsloping,0,fixed defect,0,ID255,B
+37.0241752,male,non-anginal pain,,177.8873225,FALSE,ST-T wave abnormality,173.5874343,no,0,downsloping,3.81671034,,1.046822032,ID165,A
+59.21786264,female,typical angina,152.9342049,254.2921147,FALSE,normal,163.3059453,no,2.510387426,flat,1.92254198,reversible defect,0,ID208,C
+53.46690203,,non-anginal pain,122.9826045,252.9871761,FALSE,normal,145.5541497,no,0.398690948,flat,0,reversible defect,,ID71,B
+48.57072441,male,atypical angina,124.2877462,255.2517696,FALSE,ST-T wave abnormality,169.4079899,no,0.591359726,downsloping,0,fixed defect,1.023497541,ID13,B
+56.63047923,male,atypical angina,161.4392134,,FALSE,normal,162.564373,no,0,downsloping,1.017126523,fixed defect,0,ID288,B
+64.28453517,female,typical angina,151.5548006,420.7279998,FALSE,normal,146.3328029,no,4.118313092,flat,3.058540888,reversible defect,0,ID221,C
+62.73590928,female,typical angina,142.9420891,300.9814611,TRUE,ST-T wave abnormality,104.9056442,no,1.813464174,flat,,fixed defect,0,ID253,C
+44.04265247,female,typical angina,199.7247098,337.7776896,TRUE,normal,134.7985091,yes,3.129470589,flat,0,reversible defect,,ID216,B
+50.01001841,male,typical angina,110.4869325,236.6155478,FALSE,ST-T wave abnormality,166.3164141,no,0,downsloping,0.953291428,fixed defect,0,ID262,C
+52.74980495,female,non-anginal pain,111.2264542,263.8680431,FALSE,normal,171.8599622,no,0,,0,fixed defect,1.005320813,ID124,B
+59.89236145,female,non-anginal pain,121.6888527,351.6130886,FALSE,ST-T wave abnormality,166.4582025,no,0,downsloping,0,fixed defect,,ID17,C
+53.09301393,male,non-anginal pain,172.2727468,196.3607324,,ST-T wave abnormality,165.835969,no,0.49141155,downsloping,0,,1.032926738,ID9,A
+40.57035449,male,typical angina,168.2578537,166.2358161,FALSE,normal,112.5355032,yes,1.974713638,flat,,reversible defect,0,ID176,C
+41.54731107,female,typical angina,200.3806648,331.7748737,TRUE,normal,130.7405759,yes,3.075782022,flat,0,reversible defect,,ID216,B
+58.7600876,male,atypical angina,,245.0392617,FALSE,ST-T wave abnormality,165.376296,no,0,upsloping,0,fixed defect,0.97980082,ID161,A
+,male,typical angina,130.6285066,252.0177752,TRUE,normal,150.829275,yes,0,downsloping,2.003196299,reversible defect,0,ID220,B
+73.45373338,male,typical angina,188.7542367,323.8187401,FALSE,normal,106.6132956,no,2.384540779,flat,3.108458171,fixed defect,0,ID235,C
+46.05329941,male,atypical angina,103.3762465,204.6741226,TRUE,ST-T wave abnormality,151.3044051,no,0,downsloping,0,reversible defect,,ID88,B
+57.7761261,male,typical angina,130.0887931,210.3271566,FALSE,normal,127.7007732,yes,2.450149658,flat,2.073456168,reversible defect,0,ID175,C
+41.19096737,male,atypical angina,121.7429573,163.5714719,FALSE,ST-T wave abnormality,185.1783146,no,0,downsloping,0,fixed defect,0.994314723,ID163,A
+49.83162624,,non-anginal pain,96.57153709,229.1158405,FALSE,ST-T wave abnormality,146.88323,yes,0,,0.953722552,reversible defect,0.952832415,ID72,A
+48.3654887,male,atypical angina,124.1405524,254.3024698,FALSE,ST-T wave abnormality,168.4052326,no,0.621483915,downsloping,0,fixed defect,0.991173507,ID13,B
+39.7521192,male,asymptomatic,,198.1802817,FALSE,ST-T wave abnormality,169.6222099,yes,1.397686351,,,reversible defect,0.995052082,ID25,B
+58.16130392,female,non-anginal pain,122.8066974,345.1218422,FALSE,ST-T wave abnormality,171.0767614,no,0,downsloping,0,fixed defect,,ID17,C
+39.174447,male,atypical angina,112.3960877,243.8114964,,ST-T wave abnormality,158.4377413,no,0,downsloping,0,fixed defect,0.998364052,ID134,A
+44.6658628,male,non-anginal pain,123.3299082,215.6203396,FALSE,,,no,0,downsloping,0,,,ID149,C
+54.25781896,male,typical angina,122.0744638,,FALSE,normal,,yes,2.278968642,flat,,reversible defect,0,ID188,B
+53.23376127,male,asymptomatic,114.9626421,,FALSE,normal,168.2257083,no,1.963133157,flat,,reversible defect,1.031531451,ID118,C
+50.72594229,male,asymptomatic,154.3219282,293.6839794,TRUE,ST-T wave abnormality,180.1755796,no,1.24252992,flat,0,reversible defect,0.950680001,ID84,C
+64.5919869,male,non-anginal pain,134.5411971,326.9486439,FALSE,ST-T wave abnormality,151.6441733,no,0,downsloping,0,fixed defect,0,ID178,C
+52.51535475,female,typical angina,130.5424208,214.0166562,FALSE,left ventricular hypertrophy,135.9425619,,2.010127303,flat,1.042331555,reversible defect,0,ID290,B
+79.65747887,,typical angina,127.251396,295.0681835,FALSE,normal,164.6999185,,0,downsloping,2.860753745,fixed defect,0,ID239,C
+64.28453517,female,typical angina,151.5548006,420.7279998,FALSE,normal,146.3328029,no,4.118313092,flat,3.058540888,reversible defect,0,ID221,C
+62.73590928,female,typical angina,142.9420891,300.9814611,TRUE,ST-T wave abnormality,104.9056442,no,1.813464174,flat,,fixed defect,0,ID253,C
+44.04265247,female,typical angina,199.7247098,337.7776896,TRUE,normal,134.7985091,yes,3.129470589,flat,0,reversible defect,,ID216,B
+50.01001841,male,typical angina,110.4869325,236.6155478,FALSE,ST-T wave abnormality,166.3164141,no,0,downsloping,0.953291428,fixed defect,0,ID262,C
+52.74980495,female,non-anginal pain,111.2264542,263.8680431,FALSE,normal,171.8599622,no,0,,0,fixed defect,1.005320813,ID124,B
+59.89236145,female,non-anginal pain,121.6888527,351.6130886,FALSE,ST-T wave abnormality,166.4582025,no,0,downsloping,0,fixed defect,,ID17,C
+53.09301393,male,non-anginal pain,172.2727468,196.3607324,,ST-T wave abnormality,165.835969,no,0.49141155,downsloping,0,,1.032926738,ID9,A
+40.57035449,male,typical angina,168.2578537,166.2358161,FALSE,normal,112.5355032,yes,1.974713638,flat,,reversible defect,0,ID176,C
+41.54731107,female,typical angina,200.3806648,331.7748737,TRUE,normal,130.7405759,yes,3.075782022,flat,0,reversible defect,,ID216,B
+58.7600876,male,atypical angina,,245.0392617,FALSE,ST-T wave abnormality,165.376296,no,0,upsloping,0,fixed defect,0.97980082,ID161,A
+,male,typical angina,130.6285066,252.0177752,TRUE,normal,150.829275,yes,0,downsloping,2.003196299,reversible defect,0,ID220,B
+73.45373338,male,typical angina,188.7542367,323.8187401,FALSE,normal,106.6132956,no,2.384540779,flat,3.108458171,fixed defect,0,ID235,C
+46.05329941,male,atypical angina,103.3762465,204.6741226,TRUE,ST-T wave abnormality,151.3044051,no,0,downsloping,0,reversible defect,,ID88,B
+57.7761261,male,typical angina,130.0887931,210.3271566,FALSE,normal,127.7007732,yes,2.450149658,flat,2.073456168,reversible defect,0,ID175,C
+41.19096737,male,atypical angina,121.7429573,163.5714719,FALSE,ST-T wave abnormality,185.1783146,no,0,downsloping,0,fixed defect,0.994314723,ID163,A
+49.83162624,,non-anginal pain,96.57153709,229.1158405,FALSE,ST-T wave abnormality,146.88323,yes,0,,0.953722552,reversible defect,0.952832415,ID72,A
+48.3654887,male,atypical angina,124.1405524,254.3024698,FALSE,ST-T wave abnormality,168.4052326,no,0.621483915,downsloping,0,fixed defect,0.991173507,ID13,B
+39.7521192,male,asymptomatic,,198.1802817,FALSE,ST-T wave abnormality,169.6222099,yes,1.397686351,,,reversible defect,0.995052082,ID25,B
+58.16130392,female,non-anginal pain,122.8066974,345.1218422,FALSE,ST-T wave abnormality,171.0767614,no,0,downsloping,0,fixed defect,,ID17,C
+39.174447,male,atypical angina,112.3960877,243.8114964,,ST-T wave abnormality,158.4377413,no,0,downsloping,0,fixed defect,0.998364052,ID134,A
+44.6658628,male,non-anginal pain,123.3299082,215.6203396,FALSE,,,no,0,downsloping,0,,,ID149,C
+54.25781896,male,typical angina,122.0744638,,FALSE,normal,,yes,2.278968642,flat,,reversible defect,0,ID188,B
+53.23376127,male,asymptomatic,114.9626421,,FALSE,normal,168.2257083,no,1.963133157,flat,,reversible defect,1.031531451,ID118,C
+50.72594229,male,asymptomatic,154.3219282,293.6839794,TRUE,ST-T wave abnormality,180.1755796,no,1.24252992,flat,0,reversible defect,0.950680001,ID84,C
+64.5919869,male,non-anginal pain,134.5411971,326.9486439,FALSE,ST-T wave abnormality,151.6441733,no,0,downsloping,0,fixed defect,0,ID178,C
+52.51535475,female,typical angina,130.5424208,214.0166562,FALSE,left ventricular hypertrophy,135.9425619,,2.010127303,flat,1.042331555,reversible defect,0,ID290,B
+79.65747887,,typical angina,127.251396,295.0681835,FALSE,normal,164.6999185,,0,downsloping,2.860753745,fixed defect,0,ID239,C
+40.41653515,male,atypical angina,122.8726421,288.1229972,FALSE,,168.8324069,no,0,downsloping,,fixed defect,0.984912583,ID133,B
+65.97402954,male,non-anginal pain,123.3998319,277.9678341,,ST-T wave abnormality,153.5313668,no,0.966201837,,1.005162974,reversible defect,1.029871937,ID87,C
+51.09496432,male,typical angina,,211.2458552,TRUE,ST-T wave abnormality,,yes,1.044559097,flat,0,,0,ID282,C
+53.46344114,male,atypical angina,,241.6109472,FALSE,ST-T wave abnormality,175.6944283,no,0,upsloping,0,fixed defect,0.996720241,ID161,A
+55.26322526,male,non-anginal pain,128.281885,252.2850167,TRUE,normal,180.0825578,no,0,downsloping,3.106781343,fixed defect,0.963040477,ID100,B
+51.23877404,male,non-anginal pain,144.8451448,223.2046491,FALSE,ST-T wave abnormality,174.4177196,no,,downsloping,3.869835084,fixed defect,1.033812373,ID93,C
+33.19293442,male,asymptomatic,119.631352,191.0154783,FALSE,normal,178.9594019,no,0,downsloping,0,fixed defect,1.043159037,ID59,A
+,female,atypical angina,124.5669571,298.6285248,FALSE,ST-T wave abnormality,162.572394,no,0,downsloping,0,fixed defect,0.99194661,ID135,C
+49.68976721,,non-anginal pain,107.158057,223.0892708,FALSE,ST-T wave abnormality,126.4526179,no,0.587738986,downsloping,0,,0.957052236,ID28,C
+44,male,atypical angina,130,219,FALSE,normal,188,no,0,downsloping,0,,1,ID33,B
+54,male,non-anginal pain,125,273,FALSE,normal,152,no,0.5,upsloping,1,fixed defect,1,ID34,A
+51,male,asymptomatic,125,213,FALSE,normal,,yes,1.4,downsloping,,fixed defect,1,ID35,A
+46,female,non-anginal pain,142,177,FALSE,normal,160,yes,1.4,upsloping,0,fixed defect,1,ID36,C
+54,female,,135,304,TRUE,ST-T wave abnormality,170,no,0,downsloping,0,fixed defect,,ID37,C
+54,male,non-anginal pain,150,232,FALSE,,165,no,1.6,downsloping,0,reversible defect,,ID38,A
+65,female,non-anginal pain,155,269,FALSE,ST-T wave abnormality,148,,0.8,downsloping,0,fixed defect,1,ID39,C
+65,female,non-anginal pain,160,360,FALSE,normal,151,,0.8,downsloping,0,,1,ID40,B
+51,female,non-anginal pain,140,308,FALSE,normal,142,,1.5,downsloping,1,fixed defect,1,ID41,A
+48,male,atypical angina,130,245,FALSE,normal,,no,0.2,flat,0,fixed defect,1,ID42,B
+,male,typical angina,104,208,FALSE,normal,148,yes,3,flat,0,fixed defect,1,ID43,A
+53,female,typical angina,130,264,FALSE,normal,143,no,0.4,,0,fixed defect,1,ID44,B
+39,male,non-anginal pain,140,321,FALSE,normal,182,no,0,downsloping,0,fixed defect,1,ID45,B
+52,male,atypical angina,120,325,FALSE,,172,no,0.2,,,fixed defect,1,ID46,C
+44,male,non-anginal pain,140,235,FALSE,normal,,no,,downsloping,0,,1,ID47,B
+47,male,non-anginal pain,138,,FALSE,normal,156,,0,,0,fixed defect,1,ID48,A
+53,female,non-anginal pain,128,,FALSE,normal,115,no,0,downsloping,0,,1,ID49,A
+53,female,typical angina,138,234,FALSE,normal,160,no,0,downsloping,0,fixed defect,1,ID50,B
+51,,non-anginal pain,130,256,FALSE,normal,,no,0.5,downsloping,0,fixed defect,1,ID51,A
+66,male,typical angina,120,352,FALSE,normal,151,no,0.4,flat,0,fixed defect,,ID52,B
+62,male,non-anginal pain,130,231,FALSE,ST-T wave abnormality,146,no,1.8,flat,3,reversible defect,1,ID53,B
+44,female,non-anginal pain,108,191,FALSE,ST-T wave abnormality,175,no,0.6,flat,,fixed defect,1,ID54,C
+63,,,202.5,302,FALSE,normal,172,no,0,downsloping,,fixed defect,1,ID55,C
+52,male,atypical angina,134,201,,ST-T wave abnormality,158,,0.8,downsloping,1,fixed defect,1,ID56,A
