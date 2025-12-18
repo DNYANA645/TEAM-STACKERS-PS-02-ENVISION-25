@@ -55,17 +55,80 @@ Additionally:
 
 ---
 
-### 3️⃣ Data Cleaning & Preprocessing
-- Handled missing values and outliers
-- Encoded categorical variables
-- Scaled numerical features for ML readiness
+ ---
+
+## 🔍 Round 2: Data Preprocessing & Visualization
+
+This round focuses on preparing the dataset for analysis and presenting meaningful insights through visualizations and dashboards.
 
 ---
 
-### 4️⃣ Exploratory Data Analysis & Power BI Dashboard
-- Analyzed trends and patterns related to heart disease
-- Studied relationships between age, BP, cholesterol, heart rate, and risk
-- Visualized insights using **Power BI dashboards**
+### 🧹 Data Preprocessing
+
+All preprocessing steps were performed using **Google Colab** and are documented in the notebook:
+
+📄 **File:** `preprocessing/preprocessing.ipynb`
+
+#### Preprocessing steps performed:
+- Loaded and examined the raw dataset
+- Checked and handled missing values
+- Ensured correct data types for all parameters
+- Encoded categorical variables where required
+- Normalized numerical features
+- Saved the final cleaned and processed dataset
+
+📁 **Processed Dataset:**  
+`data/processed/heart_preprocessed.csv`
+
+---
+
+### 📊 Exploratory Data Analysis & Visualizations
+
+To understand patterns and risk factors related to heart disease, **five meaningful visualizations** were created.
+
+📁 **Folder:** `visualizations/`
+
+#### Visualizations Included:
+1. **Heart Disease Risk Distribution**
+2. **Age vs Heart Disease Risk**
+3. **Cholesterol Level vs Risk**
+4. **Resting Blood Pressure vs Risk**
+5. **Correlation Heatmap of Key Parameters**
+
+These visualizations help identify trends, correlations, and high-risk factors relevant to heart disease prediction.
+
+---
+
+### 📈 Power BI Dashboard
+
+A comprehensive and interactive dashboard was developed using **Power BI** to present insights in a business and healthcare-friendly manner.
+
+📁 **Folder:** `dashboard/`
+
+#### Dashboard Features:
+- Total patients overview
+- High-risk vs low-risk distribution
+- Age group and gender-based analysis
+- Interactive filters for deeper exploration
+- Visual representation of key health indicators
+
+📄 **Dashboard File:**  
+`dashboard/heart_dashboard.pbix`
+
+📸 **Dashboard Screenshots:** Included for evaluation reference
+
+---
+
+### ✅ Round 2 Completion Status
+
+- ✔ Preprocessing completed and documented  
+- ✔ Five meaningful visualizations created  
+- ✔ Power BI dashboard developed  
+- ✔ Repository updated as per guidelines  
+
+This completes the **Round 2 requirements** of the ENVISION-2K26 Datathon.
+
+---
 
 ---
 
