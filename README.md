@@ -113,7 +113,7 @@ A comprehensive and interactive dashboard was developed using **Power BI** to pr
 - Visual representation of key health indicators
 
 📄 **Dashboard File:**  
-`dashboard/heart_dashboard.pbix`
+`https://github.com/DNYANA645/TEAM-STACKERS-PS-02-ENVISION-25/blob/main/power%20bi%20dashboard%20-EV01%20team%20stackers.pbix`
 
 📸 **Dashboard Screenshots:** Included for evaluation reference
 
