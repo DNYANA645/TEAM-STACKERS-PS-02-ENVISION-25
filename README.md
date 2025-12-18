@@ -33,7 +33,7 @@ This project focuses on **Heart Disease Risk Prediction** under **Problem Statem
 ### 2️⃣ Data Collection & Understanding
 Data collection was performed using a **hybrid approach**:
 
-#### 🔹 Web Scraping (Reference-Based)
+#### 🔹 Web Scraping (Reference-Based)+ Github repo for understanding the parameters 
 - Medical information such as:
   - Risk factors
   - Parameter ranges
@@ -131,6 +131,7 @@ https://www.mayoclinic.org/diseases-conditions/heart-disease
 ### 🔹 Centers for Disease Control and Prevention (CDC)  
 https://www.cdc.gov/heartdisease/risk_factors.htm
 
+### github reference https://github.com/sagnikghoshcr7/Heart-Disease-Prediction
 ---
 
 ## 🛠️ Tools & Technologies
