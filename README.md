@@ -51,6 +51,7 @@ Data collection was performed using a **hybrid approach**:
 Additionally:
 - Features and target variable were identified
 - All parameters were verified for medical relevance
+- [RAWDATESET](https://github.com/DNYANA645/TEAM-STACKERS-PS-02-ENVISION-25/blob/main/ENVISION-RAWDATASET-HEART-TEAM%20STACKERS.csv)
 
 ---
 
