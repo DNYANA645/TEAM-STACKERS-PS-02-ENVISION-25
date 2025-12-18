@@ -67,7 +67,7 @@ This round focuses on preparing the dataset for analysis and presenting meaningf
 
 All preprocessing steps were performed using **Google Colab** and are documented in the notebook:
 
-📄 **File:** `preprocessing/preprocessing.ipynb`
+📄 **File:** https://github.com/DNYANA645/TEAM-STACKERS-PS-02-ENVISION-25/blob/main/preproccesing_ev01_by_team_stackers.py
 
 #### Preprocessing steps performed:
 - Loaded and examined the raw dataset
