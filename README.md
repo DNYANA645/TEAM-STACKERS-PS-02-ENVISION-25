@@ -20,7 +20,7 @@ This project focuses on **Heart Disease Risk Prediction** under **Problem Statem
 
 ---
 
-## 🛣️ Workflow Overview (As per [Poster](https://github.com/DNYANA645/TEAM-STACKERS-PS-02-ENVISION-25/blob/main/POSTER-WORKFLOW-%20TEAMSTACKERS.png))
+## 🛣️ Workflow Overview (As per [Poster](https://github.com/DNYANA645/TEAM-STACKERS-PS-02-ENVISION-25/blob/main/POSTER-TEAMSTACKERS-PS-02.png))
 
 
 ### 1️⃣ Problem Definition
